@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Survey Weighting for Community Health Assessments"
+
+format:
+  html:
+    theme: lumen
+    toc: true

@@ -1,0 +1,1001 @@
+"response_id","municipality","age_grp","response_type","eligibility","age","gender","race","hisp_lat","accessCare"
+1,"CHARLOTTE","18-24 years","Web","Yes",24,"woman","White",0,1
+2,"HUNTERSVILLE","45-64 years","Postcard","Yes",52,"woman","Asian",1,1
+3,"MATTHEWS","65-84 years","Web","Yes",72,"woman","Black",0,0
+4,"DAVIDSON","25-44 years","Postcard","Yes",31,"woman","Other",0,1
+5,"CORNELIUS","25-44 years","Postcard","Yes",27,"man","White",0,1
+6,"DAVIDSON","25-44 years","Web","Yes",33,"man","White",0,0
+7,"DAVIDSON","65-84 years","Web","Yes",71,"man","White",0,1
+8,"CORNELIUS","85+ years","Postcard","Yes",87,"woman","Prefer not to answer",1,1
+9,"CHARLOTTE","45-64 years","Web","Yes",61,"man","Black",0,1
+10,"HUNTERSVILLE","45-64 years","Web","Yes",62,"woman","Black",0,1
+11,"CHARLOTTE","65-84 years","Postcard","Yes",73,"man","White",0,1
+12,"MATTHEWS","65-84 years","Web","Yes",74,"man","Asian",1,0
+13,"MATTHEWS","25-44 years","Web","Yes",38,"woman","Black",1,0
+14,"CHARLOTTE","85+ years","Web","Yes",85,"woman","White",0,0
+15,"DAVIDSON","65-84 years","Web","Yes",67,"man","White",0,0
+16,"MATTHEWS","45-64 years","Postcard","Yes",50,"woman","White",0,0
+17,"CHARLOTTE","18-24 years","Web","Yes",24,"man","White",0,0
+18,"HUNTERSVILLE","85+ years","Web","Yes",87,"woman","Other",0,0
+19,"MATTHEWS","25-44 years","Web","Yes",32,"woman","White",0,0
+20,"CHARLOTTE","45-64 years","Postcard","Yes",49,"man","White",0,1
+21,"DAVIDSON","25-44 years","Postcard","Yes",37,"woman","Black",0,0
+22,"CHARLOTTE","25-44 years","Web","Yes",32,"woman","White",0,1
+23,"MATTHEWS","65-84 years","Web","Yes",65,"woman","White",0,1
+24,"CORNELIUS","85+ years","Postcard","Yes",88,"man","White",0,0
+25,"MATTHEWS","25-44 years","Web","Yes",38,"man","AIAN",0,1
+26,"HUNTERSVILLE","45-64 years","Web","Yes",59,"prefer not to answer","Black",0,1
+27,"MINT HILL","25-44 years","Web","Yes",43,"man","White",0,0
+28,"MINT HILL","25-44 years","Web","Yes",31,"woman","Other",0,0
+29,"CHARLOTTE","65-84 years","Web","Yes",74,"woman","Other",0,0
+30,"MINT HILL","45-64 years","Web","Yes",54,"woman","White",0,0
+31,"CHARLOTTE","65-84 years","Postcard","Yes",75,"man","Black",0,0
+32,"PINEVILLE","25-44 years","Postcard","Yes",38,"man","White",0,1
+33,"CHARLOTTE","85+ years","Web","Yes",86,"woman","White",0,1
+34,"CHARLOTTE","18-24 years","Postcard","Yes",20,"man","Asian",1,1
+35,"CHARLOTTE","45-64 years","Web","Yes",54,"man","Asian",1,0
+36,"DAVIDSON","65-84 years","Web","Yes",66,"man","Black",0,0
+37,"CHARLOTTE","25-44 years","Postcard","Yes",36,"man","White",0,0
+38,"DAVIDSON","25-44 years","Web","Yes",29,"woman","White",0,0
+39,"CHARLOTTE","65-84 years","Web","Yes",78,"man","Black",0,0
+40,"CHARLOTTE","45-64 years","Web","Yes",58,"man","White",0,1
+41,"HUNTERSVILLE","45-64 years","Web","Yes",50,"man","White",0,0
+42,"MINT HILL","65-84 years","Web","Yes",67,"woman","AIAN",0,1
+43,"CHARLOTTE","85+ years","Web","Yes",85,"woman","White",0,0
+44,"PINEVILLE","85+ years","Web","Yes",88,"man","Asian",1,1
+45,"CORNELIUS","45-64 years","Web","Yes",50,"woman","White",0,1
+46,"PINEVILLE","25-44 years","Web","Yes",41,"woman","Black",0,1
+47,"CHARLOTTE","65-84 years","Web","Yes",78,"woman","White",0,0
+48,"CHARLOTTE","65-84 years","Web","Yes",78,"woman","Other",0,1
+49,"MATTHEWS","45-64 years","Web","Yes",45,"man","Other",0,1
+50,"CHARLOTTE","65-84 years","Postcard","Yes",75,"man","White",0,1
+51,"MATTHEWS","45-64 years","Web","Yes",60,"man","Asian",1,1
+52,"HUNTERSVILLE","45-64 years","Web","Yes",58,"man","Black",0,1
+53,"MATTHEWS","45-64 years","Postcard","Yes",56,"self-describe","Asian",1,0
+54,"MINT HILL","65-84 years","Web","Yes",66,"man","Prefer not to answer",1,1
+55,"MATTHEWS","25-44 years","Web","Yes",34,"man","Other",0,1
+56,"CHARLOTTE","85+ years","Web","Yes",87,"woman","Asian",1,0
+57,"CORNELIUS","85+ years","Web","Yes",87,"woman","White",0,0
+58,"CHARLOTTE","65-84 years","Postcard","Yes",82,"man","White",0,0
+59,"HUNTERSVILLE","18-24 years","Postcard","Yes",22,"man","White",0,1
+60,"PINEVILLE","18-24 years","Web","Yes",19,"man","White",0,0
+61,"MATTHEWS","25-44 years","Web","Yes",39,"woman","White",0,0
+62,"MATTHEWS","65-84 years","Web","Yes",74,"man","White",0,0
+63,"MINT HILL","65-84 years","Web","Yes",83,"man","Black",1,1
+64,"CHARLOTTE","25-44 years","Web","Yes",33,"woman","White",0,0
+65,"CHARLOTTE","65-84 years","Postcard","Yes",68,"man","White",0,1
+66,"DAVIDSON","45-64 years","Web","Yes",56,"woman","Other",0,0
+67,"CHARLOTTE","45-64 years","Postcard","Yes",57,"woman","White",0,1
+68,"CHARLOTTE","45-64 years","Postcard","Yes",55,"man","Black",0,1
+69,"CHARLOTTE","65-84 years","Postcard","Yes",77,"prefer not to answer","White",0,0
+70,"CHARLOTTE","65-84 years","Web","Yes",76,"woman","Asian",1,0
+71,"CHARLOTTE","25-44 years","Postcard","Yes",27,"man","Black",0,1
+72,"CHARLOTTE","65-84 years","Web","Yes",81,"woman","White",0,0
+73,"CHARLOTTE","65-84 years","Web","Yes",80,"woman","White",0,0
+74,"CHARLOTTE","65-84 years","Web","Yes",66,"woman","Black",0,1
+75,"CORNELIUS","65-84 years","Web","Yes",81,"man","Black",0,1
+76,"CHARLOTTE","45-64 years","Web","Yes",49,"self-describe","Black",0,1
+77,"CHARLOTTE","18-24 years","Web","Yes",24,"woman","Black",0,0
+78,"DAVIDSON","25-44 years","Web","Yes",38,"man","White",0,0
+79,"CORNELIUS","25-44 years","Web","Yes",37,"man","White",0,0
+80,"MATTHEWS","25-44 years","Web","Yes",43,"man","White",0,1
+81,"MINT HILL","85+ years","Web","Yes",85,"woman","Prefer not to answer",1,1
+82,"CHARLOTTE","25-44 years","Web","Yes",32,"man","Black",0,1
+83,"CHARLOTTE","25-44 years","Web","Yes",31,"man","White",0,0
+84,"MATTHEWS","25-44 years","Postcard","Yes",44,"woman","White",0,1
+85,"MATTHEWS","45-64 years","Web","Yes",57,"man","White",0,0
+86,"HUNTERSVILLE","65-84 years","Web","Yes",75,"man","White",0,0
+87,"PINEVILLE","45-64 years","Postcard","Yes",45,"man","Black",0,1
+88,"CHARLOTTE","25-44 years","Postcard","Yes",43,"man","Black",0,0
+89,"MATTHEWS","65-84 years","Postcard","Yes",80,"man","Prefer not to answer",1,1
+90,"CHARLOTTE","65-84 years","Web","Yes",83,"woman","AIAN",0,1
+91,"MATTHEWS","25-44 years","Web","Yes",42,"man","White",0,1
+92,"PINEVILLE","18-24 years","Web","Yes",20,"man","Black",0,1
+93,"PINEVILLE","85+ years","Web","Yes",89,"woman","Black",0,1
+94,"HUNTERSVILLE","45-64 years","Web","Yes",61,"woman","Other",0,1
+95,"CHARLOTTE","45-64 years","Web","Yes",59,"man","Black",0,0
+96,"CHARLOTTE","18-24 years","Web","Yes",23,"woman","AIAN",0,0
+97,"CHARLOTTE","45-64 years","Postcard","Yes",56,"man","Other",0,1
+98,"CHARLOTTE","65-84 years","Web","Yes",69,"woman","White",0,1
+99,"MINT HILL","25-44 years","Web","Yes",40,"woman","White",0,1
+100,"CHARLOTTE","65-84 years","Web","Yes",67,"man","White",0,0
+101,"CHARLOTTE","45-64 years","Web","Yes",60,"prefer not to answer","White",0,0
+102,"MATTHEWS","25-44 years","Web","Yes",36,"man","Black",0,0
+103,"MATTHEWS","85+ years","Web","Yes",86,"woman","White",0,1
+104,"MATTHEWS","65-84 years","Postcard","Yes",68,"man","Other",0,1
+105,"MATTHEWS","25-44 years","Web","Yes",28,"woman","Asian",1,1
+106,"CHARLOTTE","25-44 years","Postcard","Yes",29,"woman","White",0,0
+107,"CHARLOTTE","25-44 years","Postcard","Yes",25,"woman","White",0,0
+108,"MINT HILL","25-44 years","Web","Yes",41,"man","Black",0,1
+109,"DAVIDSON","45-64 years","Web","Yes",58,"woman","White",0,1
+110,"CHARLOTTE","45-64 years","Web","Yes",53,"woman","White",0,0
+111,"MINT HILL","85+ years","Postcard","Yes",89,"woman","White",0,1
+112,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","White",0,0
+113,"CHARLOTTE","25-44 years","Web","Yes",26,"woman","Asian",1,1
+114,"HUNTERSVILLE","45-64 years","Postcard","Yes",64,"man","Black",0,1
+115,"PINEVILLE","25-44 years","Web","Yes",32,"man","Black",0,1
+116,"PINEVILLE","65-84 years","Web","Yes",65,"woman","Prefer not to answer",1,1
+117,"CHARLOTTE","45-64 years","Web","Yes",59,"man","Black",0,0
+118,"MATTHEWS","65-84 years","Postcard","Yes",77,"self-describe","White",0,1
+119,"CHARLOTTE","85+ years","Web","Yes",87,"woman","Prefer not to answer",1,1
+120,"CHARLOTTE","25-44 years","Web","Yes",29,"prefer not to answer","Other",0,1
+121,"MATTHEWS","18-24 years","Web","Yes",19,"man","Black",0,1
+122,"MATTHEWS","18-24 years","Web","Yes",24,"woman","Prefer not to answer",1,0
+123,"CORNELIUS","18-24 years","Web","Yes",20,"woman","White",0,1
+124,"MINT HILL","18-24 years","Web","Yes",20,"woman","White",0,1
+125,"DAVIDSON","25-44 years","Web","Yes",44,"woman","White",0,0
+126,"HUNTERSVILLE","45-64 years","Postcard","Yes",57,"man","White",0,1
+127,"CHARLOTTE","45-64 years","Web","Yes",50,"woman","Black",0,0
+128,"CHARLOTTE","18-24 years","Web","Yes",18,"woman","Prefer not to answer",1,0
+129,"CHARLOTTE","25-44 years","Web","Yes",25,"man","White",0,0
+130,"CHARLOTTE","45-64 years","Web","Yes",49,"man","Other",0,1
+131,"DAVIDSON","65-84 years","Web","Yes",65,"prefer not to answer","White",0,1
+132,"HUNTERSVILLE","18-24 years","Postcard","Yes",21,"woman","White",0,1
+133,"CHARLOTTE","85+ years","Web","Yes",87,"self-describe","White",0,1
+134,"CHARLOTTE","25-44 years","Web","Yes",36,"woman","White",0,0
+135,"DAVIDSON","45-64 years","Web","Yes",49,"man","Asian",1,0
+136,"CHARLOTTE","25-44 years","Web","Yes",26,"man","White",0,0
+137,"MINT HILL","25-44 years","Postcard","Yes",29,"man","Other",0,1
+138,"HUNTERSVILLE","25-44 years","Postcard","Yes",28,"man","Black",0,1
+139,"HUNTERSVILLE","45-64 years","Postcard","Yes",63,"man","White",0,0
+140,"PINEVILLE","25-44 years","Web","Yes",33,"man","Asian",1,1
+141,"MINT HILL","18-24 years","Web","Yes",18,"man","Asian",1,1
+142,"CHARLOTTE","65-84 years","Web","Yes",80,"prefer not to answer","White",0,0
+143,"CORNELIUS","25-44 years","Web","Yes",38,"man","AIAN",0,1
+144,"HUNTERSVILLE","45-64 years","Web","Yes",47,"woman","White",0,1
+145,"CHARLOTTE","25-44 years","Postcard","Yes",30,"woman","White",0,1
+146,"MATTHEWS","45-64 years","Web","Yes",51,"man","White",0,0
+147,"MINT HILL","18-24 years","Web","Yes",21,"man","Black",0,1
+148,"DAVIDSON","45-64 years","Web","Yes",45,"man","Other",0,1
+149,"MINT HILL","65-84 years","Web","Yes",76,"man","White",0,0
+150,"MINT HILL","25-44 years","Web","Yes",44,"woman","White",0,1
+151,"DAVIDSON","85+ years","Postcard","Yes",86,"man","Asian",1,0
+152,"MINT HILL","25-44 years","Web","Yes",42,"man","White",0,1
+153,"DAVIDSON","18-24 years","Web","Yes",20,"man","White",0,1
+154,"DAVIDSON","85+ years","Web","Yes",85,"self-describe","AIAN",0,1
+155,"PINEVILLE","25-44 years","Web","Yes",42,"woman","Asian",1,0
+156,"MINT HILL","25-44 years","Web","Yes",37,"woman","White",0,0
+157,"CHARLOTTE","45-64 years","Web","Yes",51,"man","Black",0,0
+158,"MATTHEWS","25-44 years","Web","Yes",43,"woman","Black",0,0
+159,"MATTHEWS","18-24 years","Web","Yes",22,"woman","White",0,0
+160,"CHARLOTTE","65-84 years","Web","Yes",78,"woman","Black",0,1
+161,"MINT HILL","25-44 years","Web","Yes",26,"self-describe","White",0,0
+162,"CHARLOTTE","65-84 years","Web","Yes",67,"man","Black",0,1
+163,"CHARLOTTE","18-24 years","Web","Yes",23,"prefer not to answer","Black",0,0
+164,"DAVIDSON","65-84 years","Web","Yes",77,"prefer not to answer","Other",0,1
+165,"CHARLOTTE","45-64 years","Web","Yes",61,"man","White",0,1
+166,"MINT HILL","25-44 years","Web","Yes",28,"woman","Black",1,1
+167,"MINT HILL","65-84 years","Web","Yes",83,"self-describe","White",0,1
+168,"HUNTERSVILLE","45-64 years","Web","Yes",64,"man","White",0,0
+169,"CHARLOTTE","18-24 years","Web","Yes",20,"woman","White",0,0
+170,"CHARLOTTE","45-64 years","Web","Yes",47,"self-describe","Other",0,0
+171,"PINEVILLE","25-44 years","Web","Yes",38,"woman","Black",0,0
+172,"MATTHEWS","45-64 years","Web","Yes",45,"man","White",0,1
+173,"PINEVILLE","65-84 years","Postcard","Yes",79,"woman","Other",0,0
+174,"CHARLOTTE","45-64 years","Web","Yes",50,"man","White",0,1
+175,"PINEVILLE","45-64 years","Web","Yes",52,"woman","Black",0,0
+176,"HUNTERSVILLE","65-84 years","Web","Yes",69,"man","White",0,1
+177,"MINT HILL","45-64 years","Web","Yes",51,"woman","Black",0,1
+178,"CHARLOTTE","45-64 years","Web","Yes",58,"woman","White",0,0
+179,"MINT HILL","65-84 years","Postcard","Yes",68,"woman","Asian",1,0
+180,"HUNTERSVILLE","45-64 years","Web","Yes",64,"woman","White",0,1
+181,"MATTHEWS","65-84 years","Postcard","Yes",75,"woman","White",0,1
+182,"CHARLOTTE","65-84 years","Web","Yes",74,"woman","White",0,0
+183,"PINEVILLE","25-44 years","Web","Yes",40,"man","Asian",1,0
+184,"MATTHEWS","65-84 years","Web","Yes",65,"woman","Prefer not to answer",1,1
+185,"CHARLOTTE","25-44 years","Web","Yes",39,"man","White",0,1
+186,"MATTHEWS","25-44 years","Web","Yes",34,"prefer not to answer","Black",0,0
+187,"DAVIDSON","85+ years","Web","Yes",86,"man","Black",0,1
+188,"CHARLOTTE","25-44 years","Web","Yes",28,"man","Other",0,1
+189,"CHARLOTTE","25-44 years","Postcard","Yes",32,"woman","Other",0,1
+190,"DAVIDSON","45-64 years","Postcard","Yes",52,"woman","White",0,1
+191,"CHARLOTTE","45-64 years","Web","Yes",50,"man","White",0,1
+192,"PINEVILLE","25-44 years","Web","Yes",33,"woman","Prefer not to answer",1,0
+193,"CHARLOTTE","45-64 years","Postcard","Yes",51,"woman","Asian",1,1
+194,"PINEVILLE","65-84 years","Web","Yes",83,"woman","Black",0,0
+195,"CHARLOTTE","45-64 years","Postcard","Yes",57,"man","White",0,1
+196,"MATTHEWS","45-64 years","Web","Yes",45,"woman","White",0,0
+197,"MATTHEWS","45-64 years","Web","Yes",64,"woman","Black",0,1
+198,"MATTHEWS","45-64 years","Web","Yes",56,"woman","Prefer not to answer",1,0
+199,"DAVIDSON","85+ years","Web","Yes",87,"woman","Prefer not to answer",1,1
+200,"CHARLOTTE","25-44 years","Web","Yes",37,"woman","Black",0,0
+201,"MINT HILL","18-24 years","Web","Yes",18,"man","Black",0,1
+202,"CHARLOTTE","85+ years","Postcard","Yes",89,"man","White",0,1
+203,"CHARLOTTE","65-84 years","Web","Yes",80,"man","White",0,1
+204,"CORNELIUS","65-84 years","Web","Yes",84,"man","Prefer not to answer",1,1
+205,"HUNTERSVILLE","18-24 years","Web","Yes",21,"woman","Black",0,0
+206,"MINT HILL","65-84 years","Postcard","Yes",75,"woman","White",0,1
+207,"DAVIDSON","25-44 years","Web","Yes",42,"man","White",0,1
+208,"CHARLOTTE","45-64 years","Web","Yes",64,"prefer not to answer","Black",0,1
+209,"CHARLOTTE","45-64 years","Web","Yes",55,"man","White",0,1
+210,"MATTHEWS","25-44 years","Web","Yes",32,"woman","White",0,1
+211,"CHARLOTTE","65-84 years","Web","Yes",80,"woman","Other",0,0
+212,"HUNTERSVILLE","25-44 years","Web","Yes",38,"man","Black",0,1
+213,"CHARLOTTE","65-84 years","Web","Yes",74,"man","Black",0,1
+214,"MINT HILL","65-84 years","Web","Yes",70,"woman","White",0,1
+215,"DAVIDSON","45-64 years","Web","Yes",63,"man","Black",0,1
+216,"CHARLOTTE","25-44 years","Web","Yes",31,"prefer not to answer","White",0,0
+217,"CHARLOTTE","25-44 years","Web","Yes",34,"woman","White",0,0
+218,"DAVIDSON","45-64 years","Web","Yes",56,"prefer not to answer","Black",0,0
+219,"DAVIDSON","25-44 years","Postcard","Yes",26,"man","Black",0,0
+220,"CHARLOTTE","18-24 years","Postcard","Yes",23,"woman","Black",1,1
+221,"MATTHEWS","25-44 years","Web","Yes",40,"woman","Black",0,1
+222,"CHARLOTTE","65-84 years","Postcard","Yes",76,"woman","Other",0,0
+223,"CHARLOTTE","45-64 years","Web","Yes",63,"man","White",0,0
+224,"MATTHEWS","45-64 years","Web","Yes",55,"woman","White",0,1
+225,"CHARLOTTE","25-44 years","Web","Yes",31,"woman","White",0,1
+226,"PINEVILLE","85+ years","Web","Yes",89,"woman","White",0,1
+227,"CHARLOTTE","65-84 years","Web","Yes",79,"man","Asian",1,1
+228,"CHARLOTTE","45-64 years","Web","Yes",52,"woman","White",0,1
+229,"MATTHEWS","25-44 years","Web","Yes",36,"man","Prefer not to answer",1,0
+230,"CHARLOTTE","45-64 years","Postcard","Yes",47,"woman","Black",0,0
+231,"MATTHEWS","25-44 years","Web","Yes",42,"woman","Black",0,0
+232,"CHARLOTTE","45-64 years","Web","Yes",57,"woman","Other",0,0
+233,"CHARLOTTE","25-44 years","Web","Yes",31,"woman","Other",0,1
+234,"CHARLOTTE","25-44 years","Web","Yes",43,"man","AIAN",0,1
+235,"CORNELIUS","25-44 years","Web","Yes",39,"self-describe","White",0,0
+236,"CHARLOTTE","65-84 years","Web","Yes",65,"man","Black",0,0
+237,"CORNELIUS","65-84 years","Web","Yes",68,"woman","White",0,0
+238,"HUNTERSVILLE","18-24 years","Postcard","Yes",20,"woman","White",0,1
+239,"CORNELIUS","45-64 years","Web","Yes",59,"woman","Black",0,1
+240,"CHARLOTTE","25-44 years","Postcard","Yes",36,"man","White",0,0
+241,"MINT HILL","45-64 years","Web","Yes",45,"woman","Asian",1,0
+242,"MINT HILL","45-64 years","Web","Yes",62,"woman","Asian",1,1
+243,"MINT HILL","85+ years","Web","Yes",88,"man","Asian",1,1
+244,"MINT HILL","65-84 years","Web","Yes",80,"prefer not to answer","White",0,0
+245,"MINT HILL","25-44 years","Web","Yes",36,"man","White",0,1
+246,"PINEVILLE","45-64 years","Web","Yes",64,"man","Asian",1,1
+247,"CHARLOTTE","25-44 years","Web","Yes",31,"man","White",0,0
+248,"CHARLOTTE","45-64 years","Postcard","Yes",55,"man","Asian",1,0
+249,"MATTHEWS","65-84 years","Postcard","Yes",70,"prefer not to answer","Asian",1,0
+250,"PINEVILLE","65-84 years","Web","Yes",78,"man","Prefer not to answer",1,1
+251,"CORNELIUS","45-64 years","Web","Yes",53,"man","White",0,1
+252,"HUNTERSVILLE","45-64 years","Web","Yes",57,"man","White",0,1
+253,"CHARLOTTE","45-64 years","Web","Yes",47,"woman","Prefer not to answer",1,1
+254,"CHARLOTTE","25-44 years","Web","Yes",26,"woman","White",0,1
+255,"DAVIDSON","65-84 years","Web","Yes",81,"man","White",0,1
+256,"CHARLOTTE","45-64 years","Postcard","Yes",50,"man","Other",0,1
+257,"CHARLOTTE","65-84 years","Web","Yes",69,"woman","Asian",1,0
+258,"HUNTERSVILLE","25-44 years","Web","Yes",31,"man","Black",0,1
+259,"CHARLOTTE","65-84 years","Web","Yes",70,"woman","Other",0,1
+260,"PINEVILLE","65-84 years","Postcard","Yes",76,"man","White",0,1
+261,"CHARLOTTE","45-64 years","Postcard","Yes",58,"woman","Black",0,0
+262,"MINT HILL","85+ years","Postcard","Yes",85,"man","Asian",1,1
+263,"CHARLOTTE","85+ years","Web","Yes",85,"woman","White",0,1
+264,"HUNTERSVILLE","25-44 years","Postcard","Yes",25,"man","Other",0,0
+265,"CHARLOTTE","18-24 years","Web","Yes",19,"self-describe","Prefer not to answer",1,1
+266,"CHARLOTTE","45-64 years","Web","Yes",58,"man","Black",0,0
+267,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","Black",0,1
+268,"CORNELIUS","25-44 years","Web","Yes",33,"man","Black",0,1
+269,"PINEVILLE","65-84 years","Web","Yes",79,"man","White",0,1
+270,"CHARLOTTE","65-84 years","Web","Yes",65,"woman","White",0,0
+271,"DAVIDSON","45-64 years","Postcard","Yes",47,"man","Black",0,0
+272,"MINT HILL","25-44 years","Web","Yes",29,"woman","Black",0,1
+273,"MINT HILL","45-64 years","Web","Yes",52,"prefer not to answer","Prefer not to answer",1,0
+274,"CHARLOTTE","25-44 years","Web","Yes",28,"woman","Asian",1,1
+275,"HUNTERSVILLE","65-84 years","Postcard","Yes",81,"man","Other",0,0
+276,"CORNELIUS","65-84 years","Web","Yes",67,"woman","Other",0,1
+277,"CHARLOTTE","25-44 years","Postcard","Yes",38,"man","Black",0,1
+278,"MATTHEWS","85+ years","Web","Yes",86,"woman","Black",0,0
+279,"CHARLOTTE","65-84 years","Web","Yes",65,"woman","Black",0,1
+280,"HUNTERSVILLE","25-44 years","Web","Yes",37,"woman","Black",0,1
+281,"PINEVILLE","65-84 years","Postcard","Yes",84,"woman","Prefer not to answer",1,1
+282,"DAVIDSON","45-64 years","Web","Yes",61,"woman","White",0,0
+283,"HUNTERSVILLE","45-64 years","Web","Yes",50,"man","White",0,1
+284,"CHARLOTTE","65-84 years","Web","Yes",78,"woman","White",0,0
+285,"CHARLOTTE","25-44 years","Web","Yes",26,"man","Other",0,0
+286,"HUNTERSVILLE","85+ years","Web","Yes",85,"woman","White",0,0
+287,"CHARLOTTE","45-64 years","Web","Yes",52,"woman","AIAN",0,1
+288,"CHARLOTTE","65-84 years","Web","Yes",82,"woman","Other",0,0
+289,"CHARLOTTE","25-44 years","Web","Yes",25,"man","White",0,1
+290,"CHARLOTTE","45-64 years","Web","Yes",62,"woman","Other",0,0
+291,"CHARLOTTE","45-64 years","Web","Yes",64,"man","White",0,0
+292,"CHARLOTTE","45-64 years","Web","Yes",57,"woman","White",0,0
+293,"HUNTERSVILLE","65-84 years","Web","Yes",71,"man","Black",1,0
+294,"DAVIDSON","45-64 years","Postcard","Yes",63,"man","White",0,1
+295,"MINT HILL","45-64 years","Postcard","Yes",64,"man","White",0,0
+296,"CHARLOTTE","25-44 years","Postcard","Yes",32,"woman","Other",0,0
+297,"CHARLOTTE","25-44 years","Postcard","Yes",36,"man","Black",0,0
+298,"CORNELIUS","25-44 years","Web","Yes",43,"man","White",0,0
+299,"PINEVILLE","65-84 years","Web","Yes",69,"prefer not to answer","Black",0,0
+300,"DAVIDSON","25-44 years","Postcard","Yes",39,"man","White",0,1
+301,"CHARLOTTE","25-44 years","Postcard","Yes",38,"woman","White",0,1
+302,"MATTHEWS","65-84 years","Web","Yes",68,"woman","Other",0,1
+303,"CHARLOTTE","45-64 years","Postcard","Yes",55,"prefer not to answer","Other",0,1
+304,"HUNTERSVILLE","25-44 years","Web","Yes",37,"woman","Black",0,1
+305,"DAVIDSON","45-64 years","Web","Yes",46,"woman","Black",0,1
+306,"MATTHEWS","65-84 years","Web","Yes",68,"woman","Asian",1,0
+307,"DAVIDSON","18-24 years","Web","Yes",21,"woman","Other",0,0
+308,"MINT HILL","65-84 years","Web","Yes",72,"woman","White",0,0
+309,"CHARLOTTE","85+ years","Web","Yes",88,"man","Black",0,0
+310,"MINT HILL","45-64 years","Web","Yes",45,"prefer not to answer","White",0,0
+311,"CHARLOTTE","18-24 years","Web","Yes",21,"woman","White",0,1
+312,"MATTHEWS","25-44 years","Web","Yes",39,"woman","White",0,0
+313,"HUNTERSVILLE","45-64 years","Web","Yes",62,"man","White",0,1
+314,"MINT HILL","65-84 years","Web","Yes",84,"woman","Asian",1,0
+315,"HUNTERSVILLE","65-84 years","Web","Yes",83,"man","Black",1,0
+316,"PINEVILLE","45-64 years","Postcard","Yes",51,"woman","Black",0,1
+317,"HUNTERSVILLE","65-84 years","Postcard","Yes",72,"woman","White",0,1
+318,"DAVIDSON","18-24 years","Web","Yes",18,"man","White",0,0
+319,"CHARLOTTE","85+ years","Web","Yes",89,"woman","White",0,1
+320,"CHARLOTTE","45-64 years","Postcard","Yes",55,"woman","White",0,1
+321,"CHARLOTTE","18-24 years","Postcard","Yes",23,"woman","Other",0,0
+322,"CHARLOTTE","25-44 years","Web","Yes",42,"man","Black",0,0
+323,"MATTHEWS","25-44 years","Web","Yes",34,"man","Black",0,1
+324,"CHARLOTTE","65-84 years","Web","Yes",78,"man","White",0,1
+325,"MATTHEWS","25-44 years","Web","Yes",29,"man","Asian",1,0
+326,"CHARLOTTE","18-24 years","Web","Yes",23,"prefer not to answer","Black",0,1
+327,"CHARLOTTE","25-44 years","Postcard","Yes",44,"man","Other",0,0
+328,"MINT HILL","25-44 years","Web","Yes",25,"woman","Black",0,1
+329,"DAVIDSON","65-84 years","Web","Yes",82,"man","White",0,0
+330,"HUNTERSVILLE","65-84 years","Postcard","Yes",74,"woman","White",0,1
+331,"HUNTERSVILLE","45-64 years","Web","Yes",57,"woman","White",0,1
+332,"DAVIDSON","25-44 years","Web","Yes",31,"woman","Black",0,0
+333,"CHARLOTTE","45-64 years","Web","Yes",52,"man","White",0,0
+334,"MATTHEWS","65-84 years","Postcard","Yes",65,"woman","White",0,1
+335,"MATTHEWS","65-84 years","Web","Yes",73,"man","White",0,1
+336,"DAVIDSON","65-84 years","Web","Yes",66,"man","White",0,0
+337,"CHARLOTTE","25-44 years","Web","Yes",30,"man","Prefer not to answer",1,0
+338,"DAVIDSON","65-84 years","Web","Yes",78,"woman","Black",0,1
+339,"CHARLOTTE","65-84 years","Web","Yes",66,"man","AIAN",0,1
+340,"CHARLOTTE","45-64 years","Postcard","Yes",63,"woman","White",0,0
+341,"CHARLOTTE","65-84 years","Web","Yes",79,"man","AIAN",0,1
+342,"HUNTERSVILLE","25-44 years","Web","Yes",25,"woman","AIAN",0,1
+343,"MINT HILL","45-64 years","Web","Yes",60,"man","White",0,0
+344,"DAVIDSON","25-44 years","Web","Yes",37,"woman","White",0,0
+345,"DAVIDSON","45-64 years","Web","Yes",56,"woman","White",0,0
+346,"CHARLOTTE","65-84 years","Web","Yes",66,"woman","Black",0,1
+347,"CHARLOTTE","65-84 years","Postcard","Yes",81,"woman","Black",0,1
+348,"CHARLOTTE","65-84 years","Web","Yes",79,"man","White",0,1
+349,"MATTHEWS","65-84 years","Web","Yes",71,"woman","White",0,0
+350,"CHARLOTTE","25-44 years","Web","Yes",26,"man","Black",0,0
+351,"MINT HILL","45-64 years","Web","Yes",54,"man","Other",0,1
+352,"PINEVILLE","65-84 years","Postcard","Yes",66,"woman","Prefer not to answer",1,0
+353,"CHARLOTTE","45-64 years","Web","Yes",58,"woman","Black",0,1
+354,"DAVIDSON","25-44 years","Web","Yes",34,"man","White",0,1
+355,"HUNTERSVILLE","25-44 years","Web","Yes",38,"woman","White",0,0
+356,"MATTHEWS","65-84 years","Postcard","Yes",68,"woman","Black",0,0
+357,"MATTHEWS","65-84 years","Web","Yes",76,"man","White",0,0
+358,"CHARLOTTE","45-64 years","Web","Yes",56,"man","Other",0,0
+359,"CHARLOTTE","65-84 years","Web","Yes",72,"man","Asian",1,1
+360,"PINEVILLE","45-64 years","Postcard","Yes",58,"man","Other",0,0
+361,"MATTHEWS","45-64 years","Web","Yes",56,"man","White",0,0
+362,"CHARLOTTE","25-44 years","Web","Yes",30,"man","Black",0,1
+363,"PINEVILLE","65-84 years","Postcard","Yes",81,"man","AIAN",0,0
+364,"PINEVILLE","25-44 years","Web","Yes",28,"woman","Other",0,1
+365,"DAVIDSON","25-44 years","Web","Yes",36,"woman","Asian",1,0
+366,"CHARLOTTE","25-44 years","Postcard","Yes",28,"self-describe","White",0,0
+367,"DAVIDSON","45-64 years","Web","Yes",63,"man","Asian",1,0
+368,"MATTHEWS","45-64 years","Web","Yes",62,"woman","Asian",1,0
+369,"CHARLOTTE","18-24 years","Web","Yes",18,"woman","White",0,1
+370,"CHARLOTTE","45-64 years","Web","Yes",57,"woman","White",0,1
+371,"MATTHEWS","25-44 years","Web","Yes",36,"man","White",0,0
+372,"CHARLOTTE","85+ years","Web","Yes",89,"woman","White",0,0
+373,"MINT HILL","85+ years","Postcard","Yes",89,"man","White",0,0
+374,"HUNTERSVILLE","65-84 years","Web","Yes",78,"man","Black",0,0
+375,"CHARLOTTE","25-44 years","Web","Yes",29,"woman","White",0,0
+376,"MATTHEWS","65-84 years","Postcard","Yes",78,"woman","White",0,1
+377,"CHARLOTTE","45-64 years","Postcard","Yes",50,"man","Black",1,1
+378,"HUNTERSVILLE","45-64 years","Web","Yes",62,"prefer not to answer","White",0,0
+379,"CHARLOTTE","85+ years","Web","Yes",86,"woman","Black",0,1
+380,"PINEVILLE","25-44 years","Postcard","Yes",25,"woman","White",0,1
+381,"CHARLOTTE","25-44 years","Web","Yes",42,"prefer not to answer","White",0,0
+382,"CHARLOTTE","45-64 years","Postcard","Yes",63,"man","Black",0,1
+383,"MATTHEWS","45-64 years","Web","Yes",47,"self-describe","Black",0,1
+384,"CHARLOTTE","45-64 years","Postcard","Yes",64,"woman","Prefer not to answer",1,0
+385,"DAVIDSON","65-84 years","Web","Yes",66,"man","Black",0,1
+386,"CHARLOTTE","45-64 years","Postcard","Yes",64,"woman","Black",0,0
+387,"MINT HILL","25-44 years","Web","Yes",35,"woman","White",0,0
+388,"CHARLOTTE","65-84 years","Web","Yes",83,"woman","White",0,1
+389,"MATTHEWS","85+ years","Web","Yes",85,"prefer not to answer","Black",0,0
+390,"HUNTERSVILLE","45-64 years","Web","Yes",50,"woman","Black",0,0
+391,"CHARLOTTE","45-64 years","Postcard","Yes",53,"woman","Asian",1,0
+392,"CHARLOTTE","25-44 years","Web","Yes",36,"woman","White",0,1
+393,"CHARLOTTE","45-64 years","Web","Yes",45,"woman","White",0,1
+394,"HUNTERSVILLE","45-64 years","Postcard","Yes",57,"man","Black",0,1
+395,"CHARLOTTE","25-44 years","Web","Yes",32,"woman","White",0,1
+396,"MINT HILL","45-64 years","Web","Yes",58,"man","Asian",1,0
+397,"CHARLOTTE","45-64 years","Web","Yes",56,"woman","Prefer not to answer",1,0
+398,"CHARLOTTE","18-24 years","Web","Yes",19,"woman","White",0,1
+399,"PINEVILLE","65-84 years","Web","Yes",80,"woman","Black",0,1
+400,"DAVIDSON","45-64 years","Postcard","Yes",46,"woman","Black",0,0
+401,"CHARLOTTE","65-84 years","Postcard","Yes",83,"woman","White",0,0
+402,"CHARLOTTE","65-84 years","Web","Yes",68,"woman","Asian",1,1
+403,"CHARLOTTE","25-44 years","Postcard","Yes",27,"woman","Other",0,1
+404,"CORNELIUS","25-44 years","Web","Yes",31,"man","Black",1,1
+405,"DAVIDSON","65-84 years","Web","Yes",68,"man","White",0,0
+406,"HUNTERSVILLE","45-64 years","Web","Yes",56,"man","Prefer not to answer",1,1
+407,"MINT HILL","45-64 years","Web","Yes",45,"woman","White",0,1
+408,"MINT HILL","18-24 years","Web","Yes",20,"woman","White",0,1
+409,"PINEVILLE","85+ years","Web","Yes",87,"woman","Asian",1,1
+410,"MINT HILL","25-44 years","Web","Yes",44,"man","White",0,1
+411,"CHARLOTTE","18-24 years","Web","Yes",19,"woman","White",0,1
+412,"CHARLOTTE","45-64 years","Postcard","Yes",55,"man","Asian",1,1
+413,"CHARLOTTE","18-24 years","Web","Yes",20,"man","Asian",1,1
+414,"CHARLOTTE","25-44 years","Web","Yes",33,"woman","Other",0,1
+415,"HUNTERSVILLE","45-64 years","Web","Yes",57,"man","Black",0,0
+416,"MATTHEWS","18-24 years","Web","Yes",19,"man","White",0,1
+417,"CORNELIUS","45-64 years","Postcard","Yes",58,"man","White",0,1
+418,"CHARLOTTE","25-44 years","Web","Yes",29,"man","White",0,1
+419,"HUNTERSVILLE","45-64 years","Web","Yes",52,"woman","Black",0,0
+420,"MATTHEWS","65-84 years","Web","Yes",82,"man","Black",0,1
+421,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","Black",0,0
+422,"HUNTERSVILLE","45-64 years","Web","Yes",62,"woman","Black",0,1
+423,"CHARLOTTE","65-84 years","Web","Yes",79,"woman","White",0,1
+424,"CORNELIUS","65-84 years","Web","Yes",66,"self-describe","AIAN",0,0
+425,"CORNELIUS","25-44 years","Postcard","Yes",42,"woman","White",0,1
+426,"MATTHEWS","25-44 years","Web","Yes",40,"woman","Other",0,0
+427,"CHARLOTTE","25-44 years","Web","Yes",41,"self-describe","White",0,0
+428,"MATTHEWS","45-64 years","Web","Yes",55,"man","Prefer not to answer",1,1
+429,"PINEVILLE","45-64 years","Web","Yes",45,"prefer not to answer","White",0,0
+430,"MINT HILL","25-44 years","Postcard","Yes",38,"man","White",0,0
+431,"HUNTERSVILLE","65-84 years","Postcard","Yes",71,"woman","White",0,0
+432,"HUNTERSVILLE","25-44 years","Web","Yes",35,"man","Black",0,0
+433,"HUNTERSVILLE","45-64 years","Web","Yes",53,"woman","Black",0,1
+434,"DAVIDSON","45-64 years","Postcard","Yes",62,"woman","White",0,0
+435,"CHARLOTTE","65-84 years","Web","Yes",70,"woman","White",0,1
+436,"CHARLOTTE","45-64 years","Web","Yes",47,"man","Black",0,0
+437,"CHARLOTTE","65-84 years","Web","Yes",77,"man","White",0,0
+438,"DAVIDSON","45-64 years","Web","Yes",49,"man","Black",1,0
+439,"CHARLOTTE","65-84 years","Web","Yes",84,"man","Black",0,1
+440,"DAVIDSON","65-84 years","Web","Yes",84,"prefer not to answer","White",0,1
+441,"MATTHEWS","45-64 years","Web","Yes",45,"man","White",0,1
+442,"CHARLOTTE","45-64 years","Web","Yes",61,"woman","Asian",1,1
+443,"DAVIDSON","45-64 years","Web","Yes",58,"woman","White",0,0
+444,"CHARLOTTE","65-84 years","Web","Yes",80,"man","White",0,1
+445,"MINT HILL","25-44 years","Postcard","Yes",40,"woman","Black",0,1
+446,"CHARLOTTE","65-84 years","Web","Yes",65,"man","Asian",1,0
+447,"DAVIDSON","45-64 years","Postcard","Yes",49,"man","Asian",1,0
+448,"MINT HILL","65-84 years","Web","Yes",74,"man","Black",0,1
+449,"MATTHEWS","45-64 years","Web","Yes",50,"woman","White",0,0
+450,"DAVIDSON","25-44 years","Web","Yes",41,"man","White",0,1
+451,"HUNTERSVILLE","45-64 years","Web","Yes",56,"woman","Black",0,0
+452,"PINEVILLE","45-64 years","Web","Yes",51,"woman","Other",0,0
+453,"CORNELIUS","65-84 years","Web","Yes",73,"man","White",0,1
+454,"PINEVILLE","45-64 years","Web","Yes",45,"woman","Asian",1,1
+455,"CHARLOTTE","45-64 years","Web","Yes",54,"woman","White",0,0
+456,"MATTHEWS","18-24 years","Postcard","Yes",24,"man","AIAN",0,1
+457,"DAVIDSON","85+ years","Postcard","Yes",85,"man","White",0,0
+458,"DAVIDSON","45-64 years","Web","Yes",54,"woman","AIAN",0,0
+459,"CHARLOTTE","65-84 years","Web","Yes",73,"man","White",0,1
+460,"DAVIDSON","65-84 years","Web","Yes",82,"woman","White",0,1
+461,"CHARLOTTE","65-84 years","Postcard","Yes",82,"man","White",0,0
+462,"DAVIDSON","45-64 years","Web","Yes",64,"man","Black",0,0
+463,"CHARLOTTE","25-44 years","Web","Yes",37,"man","Black",0,1
+464,"DAVIDSON","25-44 years","Web","Yes",36,"man","Other",0,0
+465,"MATTHEWS","45-64 years","Web","Yes",46,"woman","Asian",1,1
+466,"CHARLOTTE","65-84 years","Web","Yes",77,"man","White",0,1
+467,"MATTHEWS","25-44 years","Web","Yes",35,"woman","White",0,0
+468,"CHARLOTTE","45-64 years","Web","Yes",52,"woman","Prefer not to answer",1,1
+469,"MATTHEWS","45-64 years","Web","Yes",60,"woman","White",0,1
+470,"MINT HILL","25-44 years","Postcard","Yes",28,"woman","Asian",1,0
+471,"HUNTERSVILLE","65-84 years","Web","Yes",66,"man","White",0,0
+472,"DAVIDSON","45-64 years","Postcard","Yes",55,"man","Asian",1,0
+473,"MATTHEWS","65-84 years","Web","Yes",81,"woman","White",0,1
+474,"CHARLOTTE","85+ years","Postcard","Yes",86,"man","Prefer not to answer",1,1
+475,"CHARLOTTE","25-44 years","Web","Yes",25,"woman","Other",0,0
+476,"DAVIDSON","45-64 years","Web","Yes",51,"man","Asian",1,0
+477,"MINT HILL","65-84 years","Web","Yes",65,"woman","White",0,0
+478,"MINT HILL","65-84 years","Web","Yes",73,"woman","Other",0,1
+479,"MINT HILL","65-84 years","Web","Yes",82,"woman","Asian",1,0
+480,"CHARLOTTE","45-64 years","Web","Yes",48,"woman","Other",0,1
+481,"MINT HILL","18-24 years","Web","Yes",21,"woman","Black",0,0
+482,"CHARLOTTE","65-84 years","Postcard","Yes",67,"woman","Black",0,1
+483,"HUNTERSVILLE","85+ years","Web","Yes",86,"woman","AIAN",0,1
+484,"CHARLOTTE","45-64 years","Web","Yes",47,"man","Black",0,1
+485,"CHARLOTTE","65-84 years","Postcard","Yes",76,"woman","Other",0,0
+486,"CHARLOTTE","65-84 years","Web","Yes",84,"woman","Asian",1,1
+487,"CHARLOTTE","45-64 years","Web","Yes",62,"prefer not to answer","White",0,0
+488,"DAVIDSON","18-24 years","Web","Yes",21,"man","White",0,0
+489,"CHARLOTTE","25-44 years","Web","Yes",43,"woman","Asian",1,1
+490,"CHARLOTTE","25-44 years","Postcard","Yes",44,"woman","Prefer not to answer",1,1
+491,"CHARLOTTE","45-64 years","Postcard","Yes",63,"woman","AIAN",0,0
+492,"CHARLOTTE","65-84 years","Web","Yes",81,"woman","Black",0,0
+493,"CHARLOTTE","65-84 years","Web","Yes",68,"man","White",0,1
+494,"CORNELIUS","65-84 years","Web","Yes",67,"woman","White",0,1
+495,"PINEVILLE","18-24 years","Web","Yes",23,"woman","AIAN",0,0
+496,"DAVIDSON","65-84 years","Postcard","Yes",76,"woman","White",0,1
+497,"PINEVILLE","25-44 years","Web","Yes",32,"man","Other",0,0
+498,"HUNTERSVILLE","45-64 years","Web","Yes",47,"woman","White",0,1
+499,"CHARLOTTE","45-64 years","Web","Yes",59,"woman","Asian",1,1
+500,"MINT HILL","45-64 years","Postcard","Yes",54,"man","Asian",1,0
+501,"HUNTERSVILLE","45-64 years","Web","Yes",59,"woman","Black",0,1
+502,"HUNTERSVILLE","45-64 years","Web","Yes",52,"woman","Other",0,0
+503,"CHARLOTTE","18-24 years","Web","Yes",23,"woman","White",0,1
+504,"CHARLOTTE","85+ years","Web","Yes",85,"self-describe","Black",0,1
+505,"CHARLOTTE","25-44 years","Web","Yes",35,"woman","Black",0,1
+506,"CHARLOTTE","45-64 years","Web","Yes",46,"woman","White",0,0
+507,"PINEVILLE","65-84 years","Web","Yes",76,"woman","Asian",1,0
+508,"CORNELIUS","45-64 years","Web","Yes",64,"man","Black",1,0
+509,"PINEVILLE","25-44 years","Postcard","Yes",34,"man","Asian",1,1
+510,"MINT HILL","25-44 years","Web","Yes",39,"woman","Black",0,1
+511,"MINT HILL","85+ years","Web","Yes",85,"man","Black",0,1
+512,"DAVIDSON","85+ years","Web","Yes",86,"man","White",0,0
+513,"MATTHEWS","45-64 years","Postcard","Yes",54,"woman","Asian",1,1
+514,"CHARLOTTE","65-84 years","Web","Yes",66,"woman","Prefer not to answer",1,1
+515,"CHARLOTTE","25-44 years","Web","Yes",30,"woman","White",0,1
+516,"CHARLOTTE","45-64 years","Web","Yes",51,"woman","White",0,0
+517,"PINEVILLE","65-84 years","Web","Yes",70,"woman","White",0,0
+518,"MATTHEWS","65-84 years","Postcard","Yes",68,"man","Black",0,1
+519,"CHARLOTTE","18-24 years","Web","Yes",20,"man","Asian",1,1
+520,"MATTHEWS","45-64 years","Postcard","Yes",59,"woman","White",0,0
+521,"CHARLOTTE","45-64 years","Web","Yes",49,"woman","Other",0,1
+522,"MATTHEWS","65-84 years","Web","Yes",68,"man","White",0,0
+523,"CHARLOTTE","45-64 years","Web","Yes",63,"woman","Asian",1,1
+524,"CHARLOTTE","25-44 years","Web","Yes",38,"man","Black",1,1
+525,"HUNTERSVILLE","45-64 years","Web","Yes",61,"woman","Black",1,0
+526,"CHARLOTTE","25-44 years","Web","Yes",28,"woman","AIAN",0,1
+527,"CHARLOTTE","85+ years","Postcard","Yes",85,"woman","White",0,0
+528,"CHARLOTTE","18-24 years","Web","Yes",18,"self-describe","White",0,0
+529,"MINT HILL","65-84 years","Postcard","Yes",80,"woman","White",0,1
+530,"HUNTERSVILLE","25-44 years","Web","Yes",41,"prefer not to answer","Prefer not to answer",1,0
+531,"CHARLOTTE","25-44 years","Postcard","Yes",30,"prefer not to answer","Black",0,0
+532,"PINEVILLE","25-44 years","Web","Yes",28,"woman","Asian",1,0
+533,"DAVIDSON","65-84 years","Web","Yes",68,"woman","Asian",1,0
+534,"CHARLOTTE","25-44 years","Postcard","Yes",34,"man","Other",0,0
+535,"CHARLOTTE","25-44 years","Web","Yes",41,"woman","Black",0,0
+536,"CHARLOTTE","25-44 years","Web","Yes",36,"woman","Asian",1,1
+537,"CORNELIUS","45-64 years","Web","Yes",54,"man","Black",1,0
+538,"DAVIDSON","25-44 years","Postcard","Yes",25,"man","White",0,1
+539,"CHARLOTTE","45-64 years","Web","Yes",45,"self-describe","AIAN",0,0
+540,"HUNTERSVILLE","18-24 years","Web","Yes",22,"woman","White",0,0
+541,"DAVIDSON","25-44 years","Postcard","Yes",34,"woman","Asian",1,0
+542,"CHARLOTTE","45-64 years","Web","Yes",53,"man","Black",0,1
+543,"CORNELIUS","25-44 years","Postcard","Yes",36,"man","White",0,1
+544,"CHARLOTTE","65-84 years","Web","Yes",81,"man","Black",0,1
+545,"MATTHEWS","25-44 years","Postcard","Yes",28,"man","Black",0,0
+546,"CORNELIUS","65-84 years","Postcard","Yes",71,"man","White",0,1
+547,"MINT HILL","45-64 years","Web","Yes",62,"man","White",0,0
+548,"HUNTERSVILLE","45-64 years","Postcard","Yes",64,"prefer not to answer","Black",0,0
+549,"CHARLOTTE","25-44 years","Postcard","Yes",29,"woman","Other",0,1
+550,"PINEVILLE","25-44 years","Web","Yes",38,"man","Black",0,0
+551,"MATTHEWS","25-44 years","Web","Yes",28,"man","Other",0,1
+552,"PINEVILLE","18-24 years","Web","Yes",22,"woman","Prefer not to answer",1,0
+553,"MINT HILL","65-84 years","Web","Yes",73,"man","Other",0,1
+554,"MATTHEWS","25-44 years","Postcard","Yes",37,"prefer not to answer","Other",0,1
+555,"CHARLOTTE","45-64 years","Web","Yes",58,"man","Prefer not to answer",1,1
+556,"CHARLOTTE","45-64 years","Web","Yes",63,"man","White",0,0
+557,"PINEVILLE","25-44 years","Web","Yes",29,"man","White",0,0
+558,"CHARLOTTE","85+ years","Web","Yes",87,"man","White",0,1
+559,"MINT HILL","25-44 years","Web","Yes",34,"woman","Black",0,0
+560,"MATTHEWS","25-44 years","Web","Yes",36,"woman","Black",0,1
+561,"CORNELIUS","25-44 years","Web","Yes",43,"woman","Black",0,1
+562,"CHARLOTTE","65-84 years","Postcard","Yes",65,"man","White",0,0
+563,"MINT HILL","65-84 years","Postcard","Yes",69,"woman","White",0,1
+564,"CHARLOTTE","85+ years","Web","Yes",87,"woman","White",0,1
+565,"MINT HILL","65-84 years","Web","Yes",72,"woman","White",0,0
+566,"CORNELIUS","45-64 years","Web","Yes",50,"man","Other",0,0
+567,"CORNELIUS","65-84 years","Web","Yes",79,"man","White",0,0
+568,"CHARLOTTE","25-44 years","Postcard","Yes",40,"woman","White",0,0
+569,"PINEVILLE","25-44 years","Web","Yes",32,"woman","Asian",1,1
+570,"HUNTERSVILLE","25-44 years","Postcard","Yes",44,"woman","White",0,0
+571,"PINEVILLE","65-84 years","Web","Yes",81,"woman","Other",0,1
+572,"CHARLOTTE","65-84 years","Postcard","Yes",68,"woman","Black",0,0
+573,"DAVIDSON","65-84 years","Web","Yes",70,"woman","White",0,1
+574,"MINT HILL","65-84 years","Web","Yes",68,"woman","Black",0,1
+575,"CHARLOTTE","45-64 years","Postcard","Yes",64,"prefer not to answer","Prefer not to answer",1,0
+576,"CHARLOTTE","18-24 years","Web","Yes",21,"woman","Asian",1,0
+577,"CHARLOTTE","18-24 years","Web","Yes",24,"prefer not to answer","White",0,1
+578,"PINEVILLE","45-64 years","Web","Yes",52,"woman","Asian",1,1
+579,"PINEVILLE","65-84 years","Web","Yes",65,"man","AIAN",0,0
+580,"HUNTERSVILLE","85+ years","Web","Yes",89,"woman","White",0,0
+581,"CHARLOTTE","45-64 years","Postcard","Yes",62,"man","AIAN",0,0
+582,"CHARLOTTE","85+ years","Postcard","Yes",89,"prefer not to answer","Asian",1,0
+583,"PINEVILLE","25-44 years","Postcard","Yes",36,"woman","AIAN",0,1
+584,"HUNTERSVILLE","65-84 years","Web","Yes",80,"man","White",0,1
+585,"MATTHEWS","45-64 years","Postcard","Yes",55,"woman","Black",0,0
+586,"CHARLOTTE","65-84 years","Web","Yes",84,"self-describe","White",0,1
+587,"DAVIDSON","65-84 years","Web","Yes",76,"man","White",0,0
+588,"CHARLOTTE","85+ years","Web","Yes",86,"woman","White",0,1
+589,"CHARLOTTE","25-44 years","Postcard","Yes",30,"woman","White",0,0
+590,"DAVIDSON","45-64 years","Web","Yes",64,"woman","White",0,0
+591,"DAVIDSON","65-84 years","Web","Yes",78,"man","White",0,0
+592,"MATTHEWS","45-64 years","Web","Yes",48,"man","Black",0,0
+593,"CHARLOTTE","25-44 years","Postcard","Yes",39,"man","White",0,1
+594,"CHARLOTTE","45-64 years","Web","Yes",60,"woman","White",0,1
+595,"DAVIDSON","65-84 years","Web","Yes",84,"woman","Prefer not to answer",1,0
+596,"PINEVILLE","65-84 years","Postcard","Yes",71,"prefer not to answer","AIAN",0,1
+597,"CHARLOTTE","25-44 years","Web","Yes",27,"man","Black",0,0
+598,"CHARLOTTE","45-64 years","Web","Yes",59,"woman","White",0,1
+599,"CHARLOTTE","65-84 years","Postcard","Yes",81,"man","White",0,0
+600,"MATTHEWS","25-44 years","Web","Yes",38,"man","White",0,0
+601,"CHARLOTTE","65-84 years","Web","Yes",83,"woman","White",0,0
+602,"CHARLOTTE","45-64 years","Web","Yes",58,"woman","White",0,1
+603,"CHARLOTTE","25-44 years","Web","Yes",41,"woman","White",0,1
+604,"CHARLOTTE","45-64 years","Web","Yes",52,"prefer not to answer","White",0,0
+605,"CHARLOTTE","65-84 years","Web","Yes",73,"woman","White",0,0
+606,"HUNTERSVILLE","45-64 years","Postcard","Yes",47,"prefer not to answer","AIAN",0,0
+607,"CHARLOTTE","65-84 years","Web","Yes",74,"woman","White",0,1
+608,"MINT HILL","45-64 years","Postcard","Yes",64,"woman","White",0,1
+609,"CHARLOTTE","45-64 years","Web","Yes",52,"woman","Other",0,0
+610,"HUNTERSVILLE","25-44 years","Web","Yes",36,"woman","Black",0,0
+611,"MATTHEWS","25-44 years","Web","Yes",25,"man","White",0,1
+612,"DAVIDSON","25-44 years","Web","Yes",43,"woman","Black",0,0
+613,"HUNTERSVILLE","85+ years","Web","Yes",88,"man","Black",0,0
+614,"CHARLOTTE","45-64 years","Postcard","Yes",47,"woman","White",0,0
+615,"CHARLOTTE","18-24 years","Web","Yes",24,"woman","Prefer not to answer",1,0
+616,"DAVIDSON","65-84 years","Postcard","Yes",84,"man","Asian",1,1
+617,"MATTHEWS","65-84 years","Postcard","Yes",82,"man","White",0,1
+618,"DAVIDSON","45-64 years","Postcard","Yes",53,"prefer not to answer","White",0,0
+619,"HUNTERSVILLE","25-44 years","Postcard","Yes",42,"woman","Black",0,1
+620,"DAVIDSON","45-64 years","Web","Yes",54,"man","Black",0,0
+621,"HUNTERSVILLE","18-24 years","Postcard","Yes",18,"woman","White",0,1
+622,"CHARLOTTE","25-44 years","Postcard","Yes",32,"woman","White",0,1
+623,"CORNELIUS","45-64 years","Postcard","Yes",54,"woman","White",0,1
+624,"MATTHEWS","25-44 years","Web","Yes",30,"self-describe","AIAN",0,0
+625,"CHARLOTTE","25-44 years","Web","Yes",25,"woman","Black",0,0
+626,"DAVIDSON","18-24 years","Web","Yes",22,"man","White",0,0
+627,"CHARLOTTE","65-84 years","Web","Yes",77,"woman","AIAN",0,1
+628,"HUNTERSVILLE","18-24 years","Postcard","Yes",18,"woman","Black",0,0
+629,"CHARLOTTE","45-64 years","Web","Yes",53,"man","White",0,1
+630,"HUNTERSVILLE","45-64 years","Web","Yes",52,"man","White",0,1
+631,"MINT HILL","65-84 years","Postcard","Yes",83,"man","Black",0,1
+632,"CORNELIUS","65-84 years","Postcard","Yes",80,"woman","Prefer not to answer",1,1
+633,"DAVIDSON","25-44 years","Web","Yes",40,"woman","Other",0,0
+634,"MINT HILL","25-44 years","Web","Yes",26,"woman","Other",0,0
+635,"MATTHEWS","45-64 years","Web","Yes",51,"prefer not to answer","White",0,0
+636,"CHARLOTTE","45-64 years","Web","Yes",63,"woman","White",0,1
+637,"CHARLOTTE","18-24 years","Postcard","Yes",21,"man","Other",0,0
+638,"CHARLOTTE","45-64 years","Postcard","Yes",47,"man","White",0,1
+639,"MATTHEWS","85+ years","Postcard","Yes",89,"man","White",0,0
+640,"MATTHEWS","18-24 years","Web","Yes",20,"man","White",0,0
+641,"HUNTERSVILLE","25-44 years","Web","Yes",31,"woman","White",0,1
+642,"MINT HILL","65-84 years","Postcard","Yes",77,"woman","White",0,0
+643,"HUNTERSVILLE","45-64 years","Postcard","Yes",62,"man","White",0,0
+644,"PINEVILLE","45-64 years","Web","Yes",51,"woman","White",0,1
+645,"CHARLOTTE","45-64 years","Web","Yes",62,"woman","White",0,0
+646,"MINT HILL","65-84 years","Web","Yes",78,"man","Prefer not to answer",1,0
+647,"CHARLOTTE","25-44 years","Web","Yes",33,"man","Other",0,0
+648,"MINT HILL","65-84 years","Web","Yes",83,"woman","Black",0,0
+649,"MINT HILL","45-64 years","Web","Yes",57,"man","Black",0,1
+650,"DAVIDSON","25-44 years","Web","Yes",34,"prefer not to answer","AIAN",0,1
+651,"CHARLOTTE","45-64 years","Postcard","Yes",51,"man","White",0,0
+652,"CHARLOTTE","25-44 years","Postcard","Yes",33,"man","Other",0,0
+653,"CHARLOTTE","65-84 years","Web","Yes",77,"woman","Other",0,0
+654,"CHARLOTTE","65-84 years","Web","Yes",83,"self-describe","Black",0,1
+655,"CHARLOTTE","65-84 years","Web","Yes",83,"man","White",0,0
+656,"MATTHEWS","25-44 years","Postcard","Yes",30,"man","White",0,0
+657,"HUNTERSVILLE","65-84 years","Postcard","Yes",73,"man","White",0,1
+658,"CHARLOTTE","45-64 years","Web","Yes",48,"man","White",0,1
+659,"CHARLOTTE","45-64 years","Web","Yes",51,"man","Black",0,0
+660,"CHARLOTTE","45-64 years","Web","Yes",56,"woman","Other",0,0
+661,"PINEVILLE","65-84 years","Postcard","Yes",84,"man","White",0,0
+662,"HUNTERSVILLE","25-44 years","Postcard","Yes",25,"man","Asian",1,0
+663,"MATTHEWS","65-84 years","Web","Yes",72,"woman","Black",0,1
+664,"HUNTERSVILLE","25-44 years","Web","Yes",44,"man","White",0,1
+665,"MATTHEWS","65-84 years","Web","Yes",70,"man","White",0,1
+666,"MINT HILL","45-64 years","Web","Yes",56,"man","White",0,0
+667,"CHARLOTTE","65-84 years","Postcard","Yes",82,"self-describe","White",0,0
+668,"MATTHEWS","25-44 years","Web","Yes",34,"man","White",0,0
+669,"CHARLOTTE","45-64 years","Web","Yes",47,"woman","White",0,0
+670,"MINT HILL","65-84 years","Web","Yes",70,"woman","White",0,1
+671,"CHARLOTTE","25-44 years","Web","Yes",30,"man","White",0,0
+672,"MATTHEWS","25-44 years","Web","Yes",38,"self-describe","Prefer not to answer",1,0
+673,"MINT HILL","25-44 years","Web","Yes",36,"man","White",0,0
+674,"MINT HILL","65-84 years","Web","Yes",70,"man","Other",0,0
+675,"MINT HILL","25-44 years","Web","Yes",36,"woman","White",0,0
+676,"CHARLOTTE","65-84 years","Web","Yes",74,"woman","Asian",1,1
+677,"CHARLOTTE","25-44 years","Postcard","Yes",42,"woman","White",0,0
+678,"CHARLOTTE","45-64 years","Web","Yes",48,"man","White",0,1
+679,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","Asian",1,0
+680,"DAVIDSON","25-44 years","Web","Yes",40,"woman","Prefer not to answer",1,0
+681,"CHARLOTTE","45-64 years","Web","Yes",49,"man","Black",0,1
+682,"MATTHEWS","65-84 years","Web","Yes",79,"man","White",0,0
+683,"PINEVILLE","25-44 years","Postcard","Yes",27,"man","White",0,1
+684,"MINT HILL","85+ years","Postcard","Yes",89,"man","Black",0,0
+685,"CHARLOTTE","65-84 years","Postcard","Yes",71,"woman","Asian",1,1
+686,"MINT HILL","65-84 years","Web","Yes",69,"woman","Other",0,1
+687,"MATTHEWS","25-44 years","Web","Yes",37,"self-describe","Other",0,1
+688,"HUNTERSVILLE","45-64 years","Web","Yes",49,"man","White",0,1
+689,"PINEVILLE","25-44 years","Web","Yes",31,"woman","Black",0,1
+690,"MINT HILL","65-84 years","Web","Yes",67,"man","White",0,0
+691,"CHARLOTTE","45-64 years","Web","Yes",45,"man","White",0,1
+692,"HUNTERSVILLE","65-84 years","Web","Yes",70,"man","White",0,1
+693,"CHARLOTTE","25-44 years","Web","Yes",41,"man","Other",0,0
+694,"CHARLOTTE","25-44 years","Web","Yes",39,"woman","White",0,0
+695,"CHARLOTTE","45-64 years","Web","Yes",47,"self-describe","White",0,1
+696,"CHARLOTTE","65-84 years","Web","Yes",80,"woman","Black",0,0
+697,"CHARLOTTE","18-24 years","Web","Yes",21,"man","White",0,0
+698,"CHARLOTTE","65-84 years","Web","Yes",76,"man","Other",0,1
+699,"MATTHEWS","25-44 years","Web","Yes",25,"man","White",0,0
+700,"HUNTERSVILLE","25-44 years","Web","Yes",29,"woman","AIAN",0,0
+701,"MATTHEWS","45-64 years","Postcard","Yes",48,"woman","Other",0,1
+702,"CORNELIUS","45-64 years","Web","Yes",51,"prefer not to answer","White",0,0
+703,"CHARLOTTE","65-84 years","Web","Yes",66,"man","White",0,1
+704,"HUNTERSVILLE","65-84 years","Postcard","Yes",74,"woman","White",0,0
+705,"CHARLOTTE","25-44 years","Web","Yes",43,"woman","White",0,0
+706,"CHARLOTTE","25-44 years","Web","Yes",35,"woman","Asian",1,0
+707,"PINEVILLE","45-64 years","Web","Yes",55,"woman","White",0,1
+708,"CHARLOTTE","65-84 years","Web","Yes",67,"woman","Black",0,0
+709,"PINEVILLE","25-44 years","Web","Yes",25,"woman","White",0,0
+710,"DAVIDSON","45-64 years","Web","Yes",58,"man","Black",0,0
+711,"CHARLOTTE","18-24 years","Web","Yes",23,"woman","Black",0,0
+712,"CHARLOTTE","85+ years","Web","Yes",86,"man","Other",0,0
+713,"MINT HILL","45-64 years","Web","Yes",61,"woman","AIAN",0,0
+714,"HUNTERSVILLE","65-84 years","Web","Yes",81,"man","White",0,1
+715,"CHARLOTTE","45-64 years","Web","Yes",46,"woman","White",0,0
+716,"MATTHEWS","45-64 years","Web","Yes",45,"prefer not to answer","Asian",1,1
+717,"CHARLOTTE","25-44 years","Web","Yes",28,"woman","Black",1,1
+718,"DAVIDSON","65-84 years","Web","Yes",82,"woman","Asian",1,0
+719,"MATTHEWS","25-44 years","Postcard","Yes",36,"woman","White",0,0
+720,"CHARLOTTE","25-44 years","Web","Yes",26,"woman","Black",0,1
+721,"CHARLOTTE","25-44 years","Web","Yes",44,"woman","Asian",1,1
+722,"CHARLOTTE","45-64 years","Web","Yes",51,"woman","White",0,0
+723,"CHARLOTTE","45-64 years","Web","Yes",61,"man","White",0,1
+724,"CHARLOTTE","85+ years","Postcard","Yes",85,"self-describe","Black",0,0
+725,"DAVIDSON","25-44 years","Web","Yes",32,"prefer not to answer","Other",0,0
+726,"CHARLOTTE","65-84 years","Postcard","Yes",68,"woman","Black",1,0
+727,"HUNTERSVILLE","25-44 years","Postcard","Yes",30,"man","White",0,1
+728,"MATTHEWS","65-84 years","Web","Yes",66,"man","Black",0,1
+729,"MINT HILL","85+ years","Postcard","Yes",87,"woman","White",0,1
+730,"PINEVILLE","65-84 years","Web","Yes",73,"man","White",0,0
+731,"CHARLOTTE","65-84 years","Web","Yes",68,"woman","White",0,0
+732,"PINEVILLE","45-64 years","Postcard","Yes",54,"woman","Black",0,0
+733,"HUNTERSVILLE","25-44 years","Web","Yes",34,"man","Black",0,1
+734,"CHARLOTTE","65-84 years","Postcard","Yes",75,"prefer not to answer","Other",0,0
+735,"CHARLOTTE","45-64 years","Web","Yes",46,"woman","White",0,0
+736,"MATTHEWS","45-64 years","Web","Yes",50,"woman","Prefer not to answer",1,0
+737,"CHARLOTTE","65-84 years","Postcard","Yes",77,"woman","White",0,1
+738,"CHARLOTTE","65-84 years","Postcard","Yes",72,"man","Black",0,0
+739,"CHARLOTTE","25-44 years","Web","Yes",27,"woman","White",0,0
+740,"CHARLOTTE","45-64 years","Web","Yes",64,"man","White",0,0
+741,"MINT HILL","25-44 years","Postcard","Yes",40,"prefer not to answer","AIAN",0,1
+742,"DAVIDSON","25-44 years","Web","Yes",38,"woman","White",0,1
+743,"MINT HILL","25-44 years","Web","Yes",30,"man","Black",0,1
+744,"CHARLOTTE","45-64 years","Web","Yes",50,"woman","Other",0,0
+745,"CHARLOTTE","25-44 years","Web","Yes",41,"woman","White",0,0
+746,"HUNTERSVILLE","25-44 years","Web","Yes",28,"man","Prefer not to answer",1,1
+747,"CHARLOTTE","25-44 years","Postcard","Yes",34,"self-describe","White",0,0
+748,"CHARLOTTE","85+ years","Web","Yes",85,"man","Other",0,0
+749,"MINT HILL","45-64 years","Web","Yes",64,"man","Asian",1,0
+750,"CHARLOTTE","25-44 years","Postcard","Yes",42,"woman","Black",0,1
+751,"HUNTERSVILLE","25-44 years","Web","Yes",38,"woman","White",0,0
+752,"CHARLOTTE","25-44 years","Web","Yes",29,"woman","Asian",1,1
+753,"CHARLOTTE","45-64 years","Web","Yes",54,"woman","Black",0,1
+754,"CHARLOTTE","45-64 years","Web","Yes",59,"woman","White",0,0
+755,"MATTHEWS","25-44 years","Web","Yes",34,"woman","White",0,0
+756,"MINT HILL","65-84 years","Web","Yes",65,"man","Black",0,1
+757,"MATTHEWS","45-64 years","Web","Yes",45,"man","Black",0,1
+758,"HUNTERSVILLE","45-64 years","Postcard","Yes",58,"man","Other",0,1
+759,"CHARLOTTE","45-64 years","Web","Yes",64,"man","Prefer not to answer",1,1
+760,"HUNTERSVILLE","25-44 years","Web","Yes",35,"woman","Black",0,0
+761,"HUNTERSVILLE","85+ years","Web","Yes",88,"man","White",0,1
+762,"MINT HILL","25-44 years","Web","Yes",30,"man","White",0,0
+763,"CHARLOTTE","25-44 years","Web","Yes",30,"man","White",0,1
+764,"HUNTERSVILLE","45-64 years","Web","Yes",48,"prefer not to answer","Black",0,1
+765,"CHARLOTTE","18-24 years","Web","Yes",19,"prefer not to answer","White",0,1
+766,"CHARLOTTE","25-44 years","Web","Yes",33,"woman","Other",0,1
+767,"DAVIDSON","25-44 years","Web","Yes",26,"prefer not to answer","Black",0,1
+768,"HUNTERSVILLE","45-64 years","Web","Yes",55,"woman","Prefer not to answer",1,0
+769,"CHARLOTTE","65-84 years","Web","Yes",71,"woman","White",0,1
+770,"CHARLOTTE","65-84 years","Web","Yes",73,"man","Black",1,0
+771,"HUNTERSVILLE","45-64 years","Postcard","Yes",62,"woman","White",0,1
+772,"MINT HILL","45-64 years","Postcard","Yes",51,"woman","Black",1,0
+773,"MATTHEWS","25-44 years","Web","Yes",26,"woman","White",0,0
+774,"MATTHEWS","25-44 years","Postcard","Yes",25,"woman","White",0,1
+775,"MINT HILL","18-24 years","Web","Yes",24,"woman","Black",0,1
+776,"CHARLOTTE","45-64 years","Web","Yes",53,"woman","White",0,0
+777,"DAVIDSON","25-44 years","Web","Yes",35,"prefer not to answer","White",0,1
+778,"CHARLOTTE","18-24 years","Web","Yes",20,"man","Black",0,1
+779,"CHARLOTTE","45-64 years","Web","Yes",45,"woman","Black",0,1
+780,"MINT HILL","85+ years","Postcard","Yes",87,"woman","Black",0,0
+781,"CHARLOTTE","45-64 years","Web","Yes",61,"woman","Black",0,1
+782,"MATTHEWS","25-44 years","Postcard","Yes",38,"woman","Other",0,1
+783,"HUNTERSVILLE","45-64 years","Web","Yes",45,"man","White",0,0
+784,"PINEVILLE","65-84 years","Web","Yes",71,"woman","White",0,1
+785,"DAVIDSON","65-84 years","Postcard","Yes",71,"man","White",0,1
+786,"MATTHEWS","65-84 years","Web","Yes",82,"woman","Asian",1,1
+787,"PINEVILLE","25-44 years","Web","Yes",38,"woman","Other",0,0
+788,"PINEVILLE","25-44 years","Web","Yes",30,"woman","White",0,0
+789,"CHARLOTTE","65-84 years","Web","Yes",74,"man","AIAN",0,1
+790,"HUNTERSVILLE","65-84 years","Postcard","Yes",66,"woman","Asian",1,0
+791,"CHARLOTTE","65-84 years","Postcard","Yes",71,"man","White",0,1
+792,"DAVIDSON","25-44 years","Web","Yes",27,"woman","Other",0,0
+793,"HUNTERSVILLE","65-84 years","Web","Yes",70,"prefer not to answer","Other",0,0
+794,"DAVIDSON","45-64 years","Web","Yes",61,"self-describe","Black",0,0
+795,"CHARLOTTE","45-64 years","Postcard","Yes",64,"woman","White",0,1
+796,"CHARLOTTE","65-84 years","Web","Yes",70,"woman","Prefer not to answer",1,0
+797,"DAVIDSON","45-64 years","Web","Yes",63,"man","Asian",1,1
+798,"CHARLOTTE","25-44 years","Web","Yes",30,"man","Other",0,1
+799,"CHARLOTTE","45-64 years","Web","Yes",54,"woman","Black",0,1
+800,"CHARLOTTE","25-44 years","Web","Yes",41,"woman","Asian",1,1
+801,"MATTHEWS","18-24 years","Web","Yes",19,"prefer not to answer","Black",0,0
+802,"DAVIDSON","25-44 years","Web","Yes",31,"man","White",0,0
+803,"CHARLOTTE","25-44 years","Web","Yes",27,"prefer not to answer","Other",0,0
+804,"CHARLOTTE","45-64 years","Web","Yes",52,"woman","Black",0,1
+805,"CHARLOTTE","25-44 years","Web","Yes",42,"woman","White",0,1
+806,"MINT HILL","18-24 years","Postcard","Yes",20,"man","Black",0,0
+807,"DAVIDSON","25-44 years","Web","Yes",34,"man","Asian",1,0
+808,"CHARLOTTE","25-44 years","Web","Yes",29,"woman","Asian",1,1
+809,"CHARLOTTE","65-84 years","Web","Yes",71,"woman","AIAN",0,0
+810,"CHARLOTTE","25-44 years","Web","Yes",41,"man","White",0,1
+811,"DAVIDSON","45-64 years","Web","Yes",46,"woman","Asian",1,0
+812,"MINT HILL","45-64 years","Web","Yes",60,"woman","Black",1,1
+813,"CHARLOTTE","25-44 years","Web","Yes",42,"woman","White",0,0
+814,"CHARLOTTE","65-84 years","Postcard","Yes",77,"prefer not to answer","Asian",1,0
+815,"CORNELIUS","65-84 years","Postcard","Yes",82,"man","Prefer not to answer",1,0
+816,"MATTHEWS","45-64 years","Web","Yes",45,"man","Other",0,0
+817,"CHARLOTTE","25-44 years","Web","Yes",33,"woman","Other",0,0
+818,"MINT HILL","45-64 years","Web","Yes",64,"man","White",0,0
+819,"PINEVILLE","65-84 years","Web","Yes",75,"man","White",0,1
+820,"CHARLOTTE","25-44 years","Web","Yes",44,"man","White",0,0
+821,"CHARLOTTE","65-84 years","Web","Yes",70,"man","Black",0,1
+822,"CHARLOTTE","45-64 years","Web","Yes",59,"man","White",0,0
+823,"PINEVILLE","65-84 years","Web","Yes",76,"man","White",0,1
+824,"MINT HILL","45-64 years","Postcard","Yes",64,"man","White",0,1
+825,"PINEVILLE","45-64 years","Web","Yes",51,"man","Other",0,0
+826,"HUNTERSVILLE","45-64 years","Web","Yes",54,"woman","Asian",1,0
+827,"CHARLOTTE","18-24 years","Web","Yes",23,"woman","White",0,0
+828,"CORNELIUS","18-24 years","Web","Yes",24,"woman","White",0,0
+829,"MINT HILL","25-44 years","Web","Yes",42,"man","Black",0,1
+830,"CHARLOTTE","45-64 years","Web","Yes",50,"man","AIAN",0,1
+831,"MATTHEWS","65-84 years","Web","Yes",72,"woman","White",0,1
+832,"PINEVILLE","65-84 years","Postcard","Yes",75,"woman","AIAN",0,1
+833,"CORNELIUS","18-24 years","Web","Yes",24,"woman","White",0,1
+834,"DAVIDSON","65-84 years","Web","Yes",74,"man","White",0,1
+835,"MINT HILL","25-44 years","Web","Yes",29,"prefer not to answer","AIAN",0,1
+836,"DAVIDSON","25-44 years","Web","Yes",33,"man","White",0,0
+837,"CHARLOTTE","45-64 years","Web","Yes",60,"woman","Asian",1,0
+838,"CHARLOTTE","18-24 years","Web","Yes",24,"woman","White",0,0
+839,"MATTHEWS","65-84 years","Web","Yes",68,"woman","Other",0,1
+840,"CHARLOTTE","45-64 years","Web","Yes",49,"man","Black",0,0
+841,"CHARLOTTE","25-44 years","Postcard","Yes",25,"man","White",0,0
+842,"CHARLOTTE","85+ years","Web","Yes",89,"woman","Black",0,0
+843,"CHARLOTTE","45-64 years","Web","Yes",62,"man","White",0,0
+844,"PINEVILLE","65-84 years","Web","Yes",76,"man","Asian",1,1
+845,"MATTHEWS","18-24 years","Web","Yes",21,"man","White",0,0
+846,"CHARLOTTE","65-84 years","Web","Yes",84,"woman","White",0,1
+847,"CHARLOTTE","45-64 years","Postcard","Yes",46,"man","White",0,1
+848,"CHARLOTTE","45-64 years","Web","Yes",46,"self-describe","Asian",1,0
+849,"MATTHEWS","45-64 years","Web","Yes",45,"woman","Other",0,1
+850,"PINEVILLE","45-64 years","Web","Yes",61,"self-describe","Other",0,1
+851,"CORNELIUS","18-24 years","Web","Yes",21,"prefer not to answer","White",0,0
+852,"MINT HILL","25-44 years","Web","Yes",26,"woman","Black",0,0
+853,"MINT HILL","18-24 years","Postcard","Yes",22,"man","White",0,0
+854,"MINT HILL","65-84 years","Web","Yes",73,"man","Prefer not to answer",1,1
+855,"MATTHEWS","65-84 years","Web","Yes",67,"man","White",0,1
+856,"CORNELIUS","25-44 years","Web","Yes",32,"woman","White",0,0
+857,"MINT HILL","45-64 years","Postcard","Yes",49,"man","White",0,0
+858,"HUNTERSVILLE","45-64 years","Web","Yes",45,"man","AIAN",0,0
+859,"MINT HILL","25-44 years","Web","Yes",39,"woman","Other",0,1
+860,"DAVIDSON","25-44 years","Postcard","Yes",34,"prefer not to answer","White",0,0
+861,"MINT HILL","65-84 years","Web","Yes",76,"man","Black",0,1
+862,"CORNELIUS","85+ years","Web","Yes",88,"man","AIAN",0,0
+863,"CHARLOTTE","65-84 years","Web","Yes",74,"man","Other",0,1
+864,"HUNTERSVILLE","25-44 years","Web","Yes",43,"prefer not to answer","White",0,1
+865,"MATTHEWS","25-44 years","Web","Yes",42,"woman","White",0,1
+866,"MATTHEWS","25-44 years","Web","Yes",27,"man","Other",0,0
+867,"CHARLOTTE","45-64 years","Web","Yes",62,"man","White",0,1
+868,"CHARLOTTE","25-44 years","Web","Yes",28,"man","White",0,0
+869,"CHARLOTTE","65-84 years","Web","Yes",70,"man","Prefer not to answer",1,0
+870,"DAVIDSON","85+ years","Web","Yes",89,"prefer not to answer","Asian",1,1
+871,"MINT HILL","85+ years","Web","Yes",85,"woman","White",0,1
+872,"CHARLOTTE","45-64 years","Web","Yes",45,"woman","White",0,1
+873,"HUNTERSVILLE","65-84 years","Postcard","Yes",82,"woman","Black",0,0
+874,"MINT HILL","65-84 years","Web","Yes",66,"man","White",0,1
+875,"DAVIDSON","45-64 years","Postcard","Yes",64,"woman","White",0,1
+876,"HUNTERSVILLE","65-84 years","Web","Yes",69,"woman","White",0,1
+877,"PINEVILLE","65-84 years","Web","Yes",71,"man","Black",0,1
+878,"HUNTERSVILLE","65-84 years","Web","Yes",77,"woman","Black",0,1
+879,"CHARLOTTE","65-84 years","Postcard","Yes",74,"man","White",0,0
+880,"HUNTERSVILLE","45-64 years","Web","Yes",64,"man","White",0,1
+881,"CORNELIUS","45-64 years","Web","Yes",48,"man","White",0,1
+882,"MATTHEWS","45-64 years","Postcard","Yes",63,"woman","Black",0,1
+883,"PINEVILLE","25-44 years","Web","Yes",43,"woman","White",0,0
+884,"MINT HILL","18-24 years","Web","Yes",22,"prefer not to answer","White",0,0
+885,"CHARLOTTE","65-84 years","Web","Yes",69,"woman","Black",0,0
+886,"HUNTERSVILLE","65-84 years","Postcard","Yes",71,"woman","White",0,1
+887,"CHARLOTTE","45-64 years","Web","Yes",50,"woman","Black",0,1
+888,"CHARLOTTE","65-84 years","Web","Yes",67,"man","White",0,0
+889,"DAVIDSON","45-64 years","Web","Yes",55,"woman","White",0,1
+890,"MATTHEWS","25-44 years","Web","Yes",44,"man","White",0,1
+891,"CHARLOTTE","25-44 years","Web","Yes",32,"woman","Black",0,1
+892,"CHARLOTTE","65-84 years","Postcard","Yes",78,"prefer not to answer","Prefer not to answer",1,0
+893,"MINT HILL","25-44 years","Web","Yes",38,"man","Black",1,1
+894,"CHARLOTTE","45-64 years","Web","Yes",63,"woman","White",0,0
+895,"HUNTERSVILLE","85+ years","Postcard","Yes",86,"woman","Black",0,1
+896,"DAVIDSON","18-24 years","Postcard","Yes",23,"woman","White",0,0
+897,"PINEVILLE","45-64 years","Web","Yes",55,"man","White",0,0
+898,"CHARLOTTE","65-84 years","Web","Yes",79,"man","Prefer not to answer",1,1
+899,"CHARLOTTE","65-84 years","Web","Yes",79,"man","White",0,0
+900,"MINT HILL","45-64 years","Postcard","Yes",63,"man","White",0,0
+901,"HUNTERSVILLE","25-44 years","Postcard","Yes",30,"man","White",0,1
+902,"CHARLOTTE","18-24 years","Web","Yes",20,"woman","White",0,1
+903,"MINT HILL","18-24 years","Postcard","Yes",23,"man","White",0,1
+904,"CHARLOTTE","25-44 years","Web","Yes",25,"woman","Other",0,0
+905,"DAVIDSON","45-64 years","Web","Yes",61,"woman","White",0,0
+906,"CHARLOTTE","45-64 years","Web","Yes",50,"woman","Prefer not to answer",1,0
+907,"MATTHEWS","65-84 years","Postcard","Yes",67,"man","Black",0,0
+908,"CHARLOTTE","25-44 years","Postcard","Yes",28,"woman","White",0,1
+909,"CHARLOTTE","45-64 years","Postcard","Yes",45,"prefer not to answer","White",0,0
+910,"CHARLOTTE","85+ years","Web","Yes",87,"man","White",0,0
+911,"CHARLOTTE","45-64 years","Web","Yes",58,"man","Other",0,0
+912,"CORNELIUS","25-44 years","Web","Yes",33,"woman","White",0,0
+913,"MATTHEWS","85+ years","Postcard","Yes",85,"man","Black",0,1
+914,"CHARLOTTE","65-84 years","Web","Yes",65,"man","White",0,1
+915,"CHARLOTTE","65-84 years","Web","Yes",73,"man","Other",0,0
+916,"DAVIDSON","65-84 years","Postcard","Yes",81,"man","White",0,0
+917,"CORNELIUS","65-84 years","Web","Yes",76,"woman","White",0,0
+918,"PINEVILLE","65-84 years","Web","Yes",79,"man","Asian",1,1
+919,"CHARLOTTE","25-44 years","Web","Yes",28,"woman","Black",0,1
+920,"CHARLOTTE","25-44 years","Web","Yes",35,"woman","White",0,0
+921,"DAVIDSON","25-44 years","Postcard","Yes",36,"woman","Prefer not to answer",1,0
+922,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","AIAN",0,1
+923,"PINEVILLE","25-44 years","Web","Yes",43,"woman","Prefer not to answer",1,1
+924,"CHARLOTTE","18-24 years","Postcard","Yes",23,"man","Black",0,1
+925,"MINT HILL","18-24 years","Web","Yes",21,"woman","White",0,0
+926,"CHARLOTTE","45-64 years","Web","Yes",46,"woman","White",0,0
+927,"PINEVILLE","65-84 years","Web","Yes",76,"woman","White",0,0
+928,"HUNTERSVILLE","25-44 years","Web","Yes",34,"woman","Other",0,1
+929,"PINEVILLE","45-64 years","Web","Yes",60,"man","Black",0,1
+930,"CORNELIUS","65-84 years","Postcard","Yes",83,"man","White",0,0
+931,"PINEVILLE","45-64 years","Postcard","Yes",51,"woman","White",0,0
+932,"HUNTERSVILLE","25-44 years","Web","Yes",25,"man","Black",1,0
+933,"CORNELIUS","25-44 years","Postcard","Yes",30,"woman","Asian",1,0
+934,"CORNELIUS","25-44 years","Web","Yes",25,"man","Other",0,0
+935,"DAVIDSON","65-84 years","Postcard","Yes",82,"man","White",0,1
+936,"MINT HILL","45-64 years","Web","Yes",60,"man","White",0,0
+937,"CHARLOTTE","45-64 years","Web","Yes",56,"man","White",0,0
+938,"MINT HILL","65-84 years","Postcard","Yes",76,"woman","Asian",1,1
+939,"HUNTERSVILLE","45-64 years","Postcard","Yes",61,"man","White",0,0
+940,"CHARLOTTE","25-44 years","Web","Yes",26,"self-describe","Other",0,0
+941,"CHARLOTTE","45-64 years","Postcard","Yes",54,"woman","White",0,0
+942,"CHARLOTTE","45-64 years","Web","Yes",53,"man","Other",0,1
+943,"MINT HILL","45-64 years","Web","Yes",45,"woman","Black",0,1
+944,"CORNELIUS","45-64 years","Web","Yes",59,"woman","Black",1,0
+945,"MINT HILL","45-64 years","Web","Yes",60,"woman","White",0,1
+946,"HUNTERSVILLE","45-64 years","Web","Yes",59,"man","White",0,0
+947,"CHARLOTTE","65-84 years","Web","Yes",83,"woman","White",0,1
+948,"CHARLOTTE","65-84 years","Web","Yes",72,"woman","Asian",1,1
+949,"CHARLOTTE","85+ years","Web","Yes",89,"man","Prefer not to answer",1,1
+950,"CORNELIUS","65-84 years","Web","Yes",65,"man","Other",0,0
+951,"CHARLOTTE","25-44 years","Web","Yes",39,"woman","Black",0,1
+952,"CHARLOTTE","25-44 years","Web","Yes",44,"man","Black",0,1
+953,"PINEVILLE","65-84 years","Postcard","Yes",84,"woman","White",0,1
+954,"DAVIDSON","25-44 years","Web","Yes",30,"man","Asian",1,1
+955,"MATTHEWS","45-64 years","Web","Yes",62,"prefer not to answer","White",0,0
+956,"MATTHEWS","25-44 years","Postcard","Yes",27,"woman","White",0,0
+957,"PINEVILLE","25-44 years","Web","Yes",26,"man","Other",0,0
+958,"CHARLOTTE","65-84 years","Web","Yes",71,"man","White",0,0
+959,"PINEVILLE","25-44 years","Web","Yes",44,"woman","White",0,1
+960,"MINT HILL","45-64 years","Web","Yes",51,"woman","Black",0,1
+961,"CHARLOTTE","18-24 years","Web","Yes",18,"woman","White",0,1
+962,"CHARLOTTE","45-64 years","Web","Yes",49,"man","Black",0,0
+963,"MINT HILL","85+ years","Web","Yes",88,"man","White",0,0
+964,"CHARLOTTE","65-84 years","Web","Yes",84,"man","White",0,1
+965,"PINEVILLE","25-44 years","Postcard","Yes",37,"woman","White",0,0
+966,"PINEVILLE","45-64 years","Web","Yes",52,"man","White",0,0
+967,"CHARLOTTE","25-44 years","Web","Yes",34,"man","Black",0,1
+968,"CHARLOTTE","25-44 years","Web","Yes",35,"woman","White",0,1
+969,"CHARLOTTE","45-64 years","Postcard","Yes",62,"prefer not to answer","Other",0,0
+970,"CHARLOTTE","65-84 years","Web","Yes",70,"man","AIAN",0,1
+971,"CORNELIUS","85+ years","Postcard","Yes",85,"man","Black",0,1
+972,"MINT HILL","65-84 years","Web","Yes",82,"woman","Asian",1,1
+973,"CHARLOTTE","18-24 years","Postcard","Yes",18,"woman","Black",0,1
+974,"HUNTERSVILLE","65-84 years","Web","Yes",75,"man","White",0,0
+975,"CHARLOTTE","25-44 years","Web","Yes",43,"prefer not to answer","White",0,1
+976,"MATTHEWS","25-44 years","Web","Yes",37,"woman","White",0,0
+977,"CHARLOTTE","25-44 years","Postcard","Yes",27,"man","Other",0,0
+978,"CHARLOTTE","65-84 years","Web","Yes",76,"man","White",0,1
+979,"MATTHEWS","45-64 years","Web","Yes",58,"woman","AIAN",0,1
+980,"MINT HILL","18-24 years","Web","Yes",22,"woman","Other",0,1
+981,"CHARLOTTE","65-84 years","Web","Yes",82,"man","White",0,1
+982,"MINT HILL","25-44 years","Web","Yes",34,"woman","Black",0,1
+983,"HUNTERSVILLE","25-44 years","Postcard","Yes",39,"woman","White",0,1
+984,"HUNTERSVILLE","45-64 years","Web","Yes",58,"man","White",0,0
+985,"CHARLOTTE","85+ years","Postcard","Yes",85,"woman","Black",0,0
+986,"CHARLOTTE","85+ years","Postcard","Yes",86,"prefer not to answer","AIAN",0,0
+987,"DAVIDSON","25-44 years","Web","Yes",28,"man","Black",0,0
+988,"HUNTERSVILLE","65-84 years","Web","Yes",73,"man","White",0,0
+989,"CHARLOTTE","65-84 years","Web","Yes",68,"man","White",0,1
+990,"DAVIDSON","25-44 years","Web","Yes",38,"woman","Black",0,1
+991,"CORNELIUS","25-44 years","Web","Yes",43,"self-describe","Black",0,1
+992,"CHARLOTTE","25-44 years","Web","Yes",36,"woman","Black",0,1
+993,"PINEVILLE","65-84 years","Web","Yes",77,"woman","White",0,1
+994,"CHARLOTTE","85+ years","Web","Yes",88,"woman","Other",0,0
+995,"MINT HILL","45-64 years","Web","Yes",64,"woman","White",0,0
+996,"CORNELIUS","85+ years","Postcard","Yes",88,"man","White",0,0
+997,"MATTHEWS","25-44 years","Web","Yes",43,"man","Asian",1,1
+998,"CHARLOTTE","45-64 years","Web","Yes",57,"man","White",0,0
+999,"CHARLOTTE","18-24 years","Web","Yes",22,"woman","Asian",1,1
+1000,"CHARLOTTE","25-44 years","Web","Yes",38,"man","White",0,1
