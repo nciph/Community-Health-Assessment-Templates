@@ -1,71 +1,3 @@
----
-title: "Survey Weighting for Community Health Assessments (CHA)"
-author: "NCIPH"
-date: "`r Sys.Date()`"
-format:
-  html:
-    toc: true
-    theme: lumen
-number-sections: true
----
-
-## Introduction
-
-A community health assessment (CHA) is a systematic process that uses quantitative and qualitative data to describe and understand the health status, needs, and assets of a defined community, as outlined by NACCHO. Survey weighting is a statistical technique that can be incorporated into CHA analyses to ensure that survey results more closely reflect known population characteristics.
-
-In this tutorial, we demonstrate how to apply survey weighting using a ***synthetic CHA dataset*** using Mecklenburg County as a case study. Although this example focuses on weighting by municipality (i.e., Mecklenburg County geographic areas), the same methods can be applied to other population characteristics such as age, race/ethnicity, or income.
-
-
-## Sampling Design Overview
-
-Mecklenburg County conducted data collection for its Community Health Assessment using a combined probability and non-probability sampling design.
-
-### Probability sample
-
-Respondents in the probability sample were selected proportionally based on the population size of Mecklenburg County municipalities (geographic areas). These individuals were invited to participate through mailed postcards. For this example, 600 postcards were allocated across municipalities. Target response counts were established according to each municipality’s share of the total county population to support geographically representative estimates.
-
-See Table 1 below for the sample size counts by municipality for the probability sample. These counts represent the number of respondents that were invited to participate in the survey through mailed postcards for each municipality.
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-library(knitr)
-library(tidyverse)
-prob_sample_counts <- tibble(
-  municipality = c(
-    "Charlotte",
-    "Cornelius",
-    "Huntersville",
-    "Pineville",
-    "Davidson",
-    "Mint Hill",
-    "Matthews"
-  ),
-  # Made up sample size counts for each municipality, these should be the number of respondents you reached out to in your probability sample by municipality (not the number of respondents). 
-  sample_size = c(
-    500,  # Charlotte
-    18,  # Cornelius
-    34,  # Huntersville
-    6,  # Pineville
-    9,  # Davidson
-    16,  # Mint Hill
-    17   # Matthews
-  )
-)
-
-kable(prob_sample_counts, caption = "Table 1: Probability Sample Counts by Municipality")
-
-```
-
-### Non-probability sample
-
-Surveys were distributed at community events and through word of mouth. This approach increased reach, especially among populations that are often underrepresented in traditional sampling frames.
-
-Non-probability responses were collected without predefined quotas and therefore do not necessarily align with population proportions.
-
-## Looking at the CHA Survey Data
-
-Now, let's load our the libaries that we need.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 # 0.0 Install Packages and Load Libraries 
 # install.packages("tidyverse")
@@ -95,37 +27,10 @@ library(gt) # Editing GT tables
 library(survey)
 options(tigris_use_cache = TRUE)
 
-```
-
-Below is a brief look at the synthetic dataset we will be working with for this tutorial. The synthetic dataset contains both probability and nonprobability reponses. For this tutorial, we assume that data cleaning has already been completed.
-
-### Exploration of the Dataset
-
-Variables in the **synthetic dataset** include:
-
-* `municipality`: indicates the municipality of residence for each respondent.
-
-* `age_grp`: indicates the age group of the respondent.
-
-* `response_type`: indicates whether the response was from the probability sample (Postcard) or non-probability sample (Web).
-
-* `eligibility`: indicates whether the respondent is eligible for the survey based on residency and age criteria. All respondents in the dataset are eligible for analysis. 
-
-* `age`: indicates the age of the respondent.
-
-* `gender`: indicates the gender of the respondent.
-
-* `race`: indicates the race of the respondent.
-
-* `hisp_lat`: flags whether the respondent is of Hispanic or Latino origin.
-
-* `accessCare`: indicates whether the respondent reported having a time in the past 12 months when they needed medical care but could not get it.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # Example Dataset: This dataset is a synthetic dataset modeled after the data collection strategy used in Mecklenburg County's CHA. It includes a mix of probability and non-probability responses, with a variable indicating the municipality of residence for each respondent. This dataset is similar to a csv export from Qualtrics. 
 
 # Read data
-analysis_dataset <- read_csv("survey_weighting\\synthetic_qualtrics_dataset.csv") %>%
+analysis_dataset <- read_csv("synthetic_qualtrics_dataset.csv") %>%
   mutate(
     municipality = str_to_title(municipality),
     response_type = factor(response_type)
@@ -138,17 +43,11 @@ dim(analysis_dataset)
 # Variable names and types
 glimpse(analysis_dataset)
 
-```
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ## Response counts 
 # Number of responses by mode (Web vs. Postcard)
 table(analysis_dataset$response_type)
 
-```
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ##  Municipality distribution 
 # Number of responses by municipality
@@ -167,26 +66,6 @@ analysis_dataset %>%
     axis.text.x = element_text(angle = 45, hjust = 1)
   )
 
-```
-
-## Pull Population Data
-
-After survey data collection, you need benchmark population data to weight your survey data by.
-
-How to determine what population data you need? 
-* Who is your sample composed of? 
-    + Mecklenburg county residents 
-* What population characteristics are you interested in? 
-    + Municipality, race, ethncity, gender, age etc. 
-* What groups are under- or over-represented in your sample? What do you want to correct for? 
-    + Representative sample by municipality
-
-
-Now let's use American Community Survey (ACS) data to get the population totals we are interested in.
-
-The ACS provides a variety of data tables. The most commonly used tables include: Base Tables/Detailed Tables (B), Data Profiles (DP), and Subject tables (S). Each table type contains different variables, so it’s important to investigate which variables are available in each table and determine which ones you need for your analysis.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 1.0 Investigate ACS Variables ----
 ## 1.1  Base Tables/Detailed Tables (B) ----
 acs_vars_b <- load_variables(2023, "acs5", cache = FALSE) # Update year
@@ -198,13 +77,8 @@ acs_vars_dp <- load_variables(2023, "acs5/profile", cache = FALSE) # Update year
 
 ## 1.3 Subject tables (S) ----
 acs_vars_s <- load_variables(2023, "acs5/subject", cache = FALSE) # Update year
-```
 
-After you have determined which variables you want to pull, you can use the `get_acs()` function to pull the data. You can specify the geography, year, state, survey type, and variables you want to pull. The output can be in "wide" format (one row per geographic unit with columns for each variable) or "long" format (one row per variable per geographic unit).
 
-In the code, you will note that we pull race data by age groups. This is because our survey only includes adults, so we will need to sum the relevant age groups together to create the adult population for each race category. The ACS variable names may change over time, so be sure to check the variable names for the year you are pulling data for. The variable names used in this code are based on the 2023 ACS data 5-year estimates.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 2.0 Pull ACS Data from B/DP/S Tables -----------------------------------------
 # ACS considers these municipalities (towns) as "Place"
 acs_tbl <- get_acs(
@@ -310,13 +184,7 @@ acs_tbl <- get_acs(
   ),
   output = "wide" 
 )
-```
 
-### Formatting ACS Data for Survey Weighting
-
-The acs_tbl dataframe contains the population data for the specified variables in North Carolina. We only want data for Mecklenburg County municipalities, so we will filter the data to include only those municipalities and select the relevant variables for weighting our survey data.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 # 3.0 Filter for Mecklenburg County Municipalities and Select Variables ----
 # Identify the GEOIDs for the municipalities in Mecklenburg County. 
@@ -331,11 +199,7 @@ acs_total <- acs_tbl %>%
     GEOID,
     total_popE) %>%
   cbind(municipality, .)
-```
 
-The ACS age groups are more granular than the age groups we want to use for developing tables. We will need to sum the relevant age groups together to create the age groups we want to use.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 3.1 Fixing age groups ----
 acs_age <- acs_tbl %>%
   filter(GEOID %in% meck_geoids) %>%
@@ -389,11 +253,7 @@ acs_age <- acs_tbl %>%
     ),
     municipality = str_to_title(municipality)
   )
-```
 
-Similarly for race, we want our race populations totals from the ACS to omit the under 18 population since our survey only includes adults. We will need to sum the relevant age groups together to create the under 18 population for each race category.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 3.2 Race ----
 acs_race <- acs_tbl %>%
   filter(GEOID %in% meck_geoids) %>%
@@ -454,11 +314,7 @@ acs_race <- acs_tbl %>%
       "race_multi_pop" = "Multiracial"
     )
   )
-```
 
-Same for ethnicity!
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 3.3 Race/Eth ----
 acs_eth <- acs_tbl %>%
   filter(GEOID %in% meck_geoids) %>%
@@ -485,14 +341,7 @@ acs_eth <- acs_tbl %>%
       "hisp_pop" = "Yes",
       "non_hisp_pop" = "No"
     ))
-```
 
-## Comparing Municipality Totals from ACS with Sample Counts
-Ideally, The proportion of survey responses from each municipality would closely match its share of the total county population. When this alignment occurs, geographic weighting may not be necessary.
-
-In this example, however, the survey sample does not mirror the population distribution. Charlotte comprises more than 80 percent of the county’s population, yet accounts for a much smaller share of survey responses. In contrast, several smaller municipalities contribute a disproportionately large share of responses relative to their population size. This pattern indicates that respondents from smaller municipalities are overrepresented, while respondents from Charlotte are underrepresented.
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
 # Bar Chart Population totals from ACS
 
 # Converting population totals into proportions
@@ -541,23 +390,6 @@ compare_props %>%
     strip.text = element_text(face = "bold")
   )
 
-```
-
-## Survey Weighting
-
-Before weighting, you need the following information:
-
--   What are you weighting by?
-    -   Municipality (geographic areas)
--   Do you have population totals (ACS data) by the variable you are weighting by?
-    -   Yes, see 01_Pull_Population_Data.
--   For probability sample weighting, you need probability sampling counts by weighting variable.
-    -   In our case, sample size by municipality.
-
-Let's look at this information.
-
-### Preparing Data for Weighting
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ## 4.0 Aligning Probability Sample counts with ACS data ---------------------------------------------
 # Craete a df that is a sum of the addressed by municplaity 
@@ -595,10 +427,6 @@ prob_sample_counts <- tibble(
 sample_acs <- left_join(prob_sample_counts, acs_total_tbl, by = "municipality")
 sample_acs <- as.data.frame(sample_acs)
 
-```
-
-We are taking our analysis dataset, counting the number of postcard and web responses by municipality, and merging that with our sample size counts and population totals from the ACS. This will give us all the information we need to compute weights for both our probability and non-probability samples.
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 5.0 Counts of Postcard & Web responses by Municipality -----------------------
 
 weight_data <- analysis_dataset %>%
@@ -614,19 +442,7 @@ weight_data <- analysis_dataset %>%
   left_join(sample_acs, by = "municipality") %>%
   relocate(c(acs_known_pop, sample_size), .after = municipality) %>%
   arrange(municipality)
-```
 
-#### Compute Weights for Probability Sample
-
-Now we have the counts of postcard and web responses by municipality, the population totals by municipality from the ACS, and the sample size by municipality for our probability sample. We can use this information to compute weights for our survey data.
-
-1.  Calculate the probability of selection for each municipality based on the sample size and the known population from the ACS.
-2.  Calculate the base weights as the inverse of the probability of selection.
-3.  Calculate the response rate for each municipality based on the number of postcard completions and the sample size.
-4.  Calculate the nonresponse adjustment factor (coverage weight) as the inverse of the response rate.
-5.  Calculate the final weight for each municipality by multiplying the base weight and the coverage weight.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 5.0 Compute Weights: Probability Sample --------------------------------------
 ## 5.1 Probability Sample Weights (base & coverage weights) ----
 weight_data <- weight_data %>%
@@ -639,17 +455,6 @@ weight_data <- weight_data %>%
     ps_wgt = ps_bw * ps_naf
   ) # Multiply the base weight and coverage weight
 
-```
-
-#### Compute Weights for Non-Probability Sample
-
-1.  Calculate the population proportion for each municipality based on the known population from the ACS.
-2.  Calculate the sample proportion for each municipality based on the number of web completions.
-3.  Calculate the post-stratification adjustment factor as the population proportion divided by the sample proportion.
-4.  Base weights for non-probability sample are set to 1 since we do not have a known probability of selection.
-5.  Calculate the final weight for each municipality by multiplying the base weight and the post-stratification adjustment factor.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 5.2 Compute Weights: Non-Probability Sample ----------------------------------
 weight_data <- weight_data %>%
   mutate(
@@ -661,14 +466,7 @@ weight_data <- weight_data %>%
     nps_bw = 1, # base weights
     nps_wgt = nps_bw * post_strat_adj
   )
-```
 
-#### Validate Weights
-
-1.  Check that the sum of the weights for the probability sample equals the total population from the ACS.
-2.  Check that the sum of the weights for the non-probability sample equals the total number of web completions.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 5.3 Checking Weights ----
 sum_ps_wgt <- sum(weight_data$ps_comp * weight_data$ps_wgt) # Should equal the total population
 sum_nps_wgt <- sum(weight_data$nps_comp * weight_data$nps_wgt) # Should equal the total number of NPS completions
@@ -676,15 +474,7 @@ sum_nps_wgt <- sum(weight_data$nps_comp * weight_data$nps_wgt) # Should equal th
 sum_ps_wgt
 
 sum_nps_wgt
-```
 
-#### Combine Probability and Non-Probability Weights & Scaling
-
-1.  Calculate scaling factors for the probability sample by dividing the total population from the ACS by the sum of the weighted counts for the probability sample.
-2.  Calculate scaling factors for the non-probability sample by dividing the total population from the ACS by the sum of the weighted counts for the non-probability sample.
-3.  Rescale the weights for both samples by multiplying the weights by their respective scaling factors and dividing by 2 to ensure that the combined weights sum to the total population.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 5.4 Combine weights & Scaling----
 weight_data <- weight_data %>%
   mutate(
@@ -694,11 +484,7 @@ weight_data <- weight_data %>%
     nps_wgt_final = (nps_wgt * nps_sf) / 2
   ) # Rescaled weight, final to use for NPS respondents
 
-```
 
-#### Apply Weights to Dataset
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 5.5 Apply weights to dataset ----
 weighted_analysis_file <- analysis_dataset %>%
   left_join(weight_data, by = "municipality") %>%
@@ -732,13 +518,7 @@ weighted_analysis_file <- analysis_dataset %>%
     -ps_wgt_final,
     -nps_wgt_final
   )
-```
 
-#### Validate Combined Weights after adding weights to dataset
-
-The sum of the combined weights should equal the total population from the ACS. You can also check the sum of the weights by response type to ensure that they are in line with expectations based on the sample sizes and population proportions.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 ## 5.6 Check weights ----
 wgt_check1 <- sum(weighted_analysis_file$wgt_combined)
 wgt_check2 <- weighted_analysis_file %>%
@@ -747,16 +527,7 @@ wgt_check2 <- weighted_analysis_file %>%
 
 wgt_check1
 wgt_check2
-```
 
-## Running Weighted Analyses
-
-Now you have your analytical dataset with weights that you can use to run weighted analyses and create weighted tables for your CHA report.
-
-First, you need to create a survey design object that specifies the sampling design and weights for your data. Then you can use functions from the `survey` package to run weighted analyses such as calculating weighted means and proportions.
-
-### Create survey design object
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 # 6.0 Create Survey Design Object ----
 survey_design <- svydesign(
@@ -766,13 +537,7 @@ survey_design <- svydesign(
   data = weighted_analysis_file,
   nest = TRUE
 )
-```
 
-### Weighted Proportions using Survey Design Object
-In our **synthetic dataset**, we have data on how peope answered the question "Was there a time in the past 12 months when you needed medical care, but could not get it?". 
-"accessCare" is a binary variable in our dataset (1 = yes, there was a time they couldn't get care; 0 = no, there was not a time they could not get care).  We will calculate the weighted proportion of respondents who reported they had a time when they could not get care, using the survey design object we created.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 6.1 Example: Weighted Proportions ----
 # Calculate weighted proportions for a variable of interest
 accessCare_wgt_prop <- svymean(~accessCare, design = survey_design)
@@ -782,27 +547,13 @@ accessCare_wgt_prop
 # Comprare to unweighted proportions
 accessCare_unwgt_prop <- prop.table(table(weighted_analysis_file$accessCare))
 accessCare_unwgt_prop
-```
 
-We can see that the weighted (0.48675) and unweighted (0.506) proportions for this variable are different, which indicates that weighting has adjusted the estimates to better reflect the population distribution.
-
-### Example Tables
-
-When reporting reporting weighting analysis results in your CHA report, it is best practice to report both unweighted counts and weighted percentages to provide context for the weighted estimates. Also, it is best practice to have ACS population totals to compliment the survey numbers. Below is an example of how to create a weighted demographic table by municipality using the `gtsummary` package.
-
-The code below merges our ACS data with our weighted analysis file to get the population totals by municipality and age group for the tables we will create in the next section. You can merge in the relevant ACS data for the variables you are using in your tables, such as race and gender etc.
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # Merge our ACS data with our weighted analysis file to get the population totals by municipality for the table.
 weighted_analysis_final <- weighted_analysis_file %>%
   left_join(acs_total_tbl, by = "municipality") %>%  # merge municipality population totals 
   left_join(acs_age, by = c("municipality", "age_grp"))  # merge age group population totals 
  
-```
 
-#### Table by Municipality Counts
-Note that the weighted percentages match the population distribution from the ACS, while the unweighted counts reflect the distribution of respondents in the sample. 
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
 # 6.2 Example: Weighted Demographic table using Municipality ----
 # Create a weighted demographic table by municipality using the gtsummary package. 
 
@@ -867,79 +618,3 @@ municipality_table %>%
       "Survey column shows unweighted counts with survey-weighted percentages.
        ACS column shows population percentages from the American Community Survey."
   )
-
-
-```
-
-#### Table by Age Group
-
-```{r, echo=TRUE, message=FALSE, warning=FALSE}
-# 6.3 Example: Weighted Demographic table using Age Group ----
-
-# Get unweighted counts by age group 
-unweighted_n <- weighted_analysis_final %>%
-  count(age_grp, name = "n_unweighted")
-
-# Get weighted proportions by age group using the survey design object
-weighted_p <- svymean(
-  ~ age_grp,
-  survey_design,
-  vartype = NULL
-) %>%
-  as.data.frame() %>%
-  rownames_to_column("age_grp") %>%
-  mutate(
-    age_grp = age_grp %>%
-      gsub("^age_grp", "", .)
-  )
-
-# Get population proportions from ACS by age group 
-
-acs_p <- acs_age %>%
-  group_by(age_grp) %>% # sum across municipalities to get total population by age group for the county
-  summarise(
-    acs_age_pop = sum(acs_age_pop, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    acs_percent = acs_age_pop / sum(acs_age_pop)
-  ) %>%
-  select(age_grp, acs_percent)
-
-
-# Merge all the data together and create formatted columns for the table
-age_table <- unweighted_n %>%
-  left_join(weighted_p, by = "age_grp") %>%
-  left_join(acs_p, by = "age_grp") %>%
-  mutate(
-    survey_col = paste0(
-      n_unweighted,
-      " (",
-      percent(mean, accuracy = 0.1),
-      ")"
-    ),
-    acs_col = percent(acs_percent, accuracy = 0.1)
-  ) %>%
-  select(
-    `Age Group` = age_grp,
-    `Survey Responses: N (Weighted %)` = survey_col,
-    `ACS Population (%)` = acs_col
-  )
-
-age_table %>%
-  gt() %>%
-  tab_header(
-    title = "Age Distribution of Survey Respondents Compared to ACS Population"
-  ) %>%
-  tab_source_note(
-    source_note =
-      "Survey values are shown as unweighted counts with survey-weighted percentages.
-       ACS percentages represent countywide age-group population distributions."
-  )
-
-```
-
-We notice that we got a good represenatation of 45-64 year olds in our survey, but we underrepresented 18-24 year olds and overrepresented 65-84 year olds. We could have done more outreach to 25-44 years old. Remember this is synthetic data, but this is the type of insight you can gain from comparing weighted survey estimates to ACS population distributions. 
-
-## Awknowledgements
-Generative AI was used to assist in writing and debugging code for this tutorial. The author reviewed and edited the code to ensure accuracy and clarity. 
